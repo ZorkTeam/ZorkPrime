@@ -1,0 +1,13 @@
+[0,0]
+Description of area (NO new lines/CR)
+
+[0,1] 
+Description of next area..
+
+
+.
+.
+.
+.
+[17,17]
+Description of last area.
