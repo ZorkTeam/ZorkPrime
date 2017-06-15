@@ -1,0 +1,68 @@
+For readability of page 2 and 3:
+
+Default Satchel:   only Rusty Knife
+
+Finds: Sword, spear, bow with arrows, gold?, jewels?
+
+Map File description: 
+Each entry should have map coordinates ie: [0,0]
+Description of area with no CR/LF 
+
+
+Enemies (maybe more?):
+Gru (it's Zork!) descibe as small goblin  Location: forests
+Orc - Swamps/plains
+Bandits - along roads and in the villages
+
+Screen FLow:
+1. Clear it
+2. Description of area, followed by any enemy encounter
+3. Prompt for action
+
+Actions
+--------
+
+Quit
+Save (if time)
+Load (if time)
+Look <direction>
+Go <direction>
+Use <item in satchel>
+Search (searches the area for findable items) Finds are random and can be nothing
+(more if time allows?)
+
+Objects
+----------
+Engine-
+  readfile
+  combat
+  display
+  ActionRead
+  ActionDetermine
+  
+Satchel
+  get
+  put
+  isin
+
+Player has HP of 20
+
+Enemy
+  weapon
+  name
+  hp (Gru-5, orc - 15, bandit 10)
+  attack (Gru 5, orc 10, bandit 7)
+  More?
+
+Weapons- Critical is random
+-------
+Knife Attack=1 Critical +2
+Sword Attack=3 Critical +3
+Spear Attack=4 Critical +4
+Bow Attack=3 Critical +5
+
+Actions
+-------
+Look/Go N/S/E/W
+Use <item> if not present lose round if in combat
+  
