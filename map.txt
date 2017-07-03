@@ -1,8 +1,8 @@
 [0,0]
-Description of area (NO new lines/CR)
+Before you lies a large field of grain. It looks a little like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north and west is an unpassable briar patch. To the south and east is more of the cornfield.
 
 [0,1] 
-Description of next area..
+Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north is more of the unpassable briars. In all the other directions, there is still more cornfield.
 
 
 .
