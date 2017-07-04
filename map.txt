@@ -22,16 +22,16 @@ Before you lies another section of the field of grain. It looks like rows of poo
 [7,0]
 Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north is more of the unpassable briars. To the east, there appears to be a break in the field. In all the other directions, there is still more cornfield.
 
-[0,8]
+[8,0]
 Before you lies another section of the field of grain. In the middle of the area is a road leading from the north heading south. The northbound part of the road seems to have been grown over by the thick briars. In all the other directions, there is still more cornfield.
 
-[0,9]
+[9,0]
 Before you lies the outskirts of what looks like a deep forest. In this area the trees seem to be young saplings of different species. Oak, some pine, and maple. There is nothing apparent to you that would be of interest. To the north is more of the unpassable briars seeming to make their way through the trees. To the west is a road leading south. To the south, more of the outskirts of the forest. To the east,the woods get thicker and older.
 
-[0,10]
+[10,0]
 Before you lies a deep forest. In this area the trees seem to be older saplings of different species. Oak, some pine, and maple. the trunks seem to be about a foot in diameter. There is nothing apparent to you that would be of interest. To the north is more of the unpassable briars seeming to make their way through the trees. To the west is a thinner section of the forest. To the south, more of the outskirts of the forest. To the east,the woods get thicker and older.
 
-[0,11]
+[11,0]
 Before you lies a deep forest. In this area the trees seem to be old. Oak, some pine, and maple. the trunks seem to be about a foot and more in diameter. There is nothing apparent to you that would be of interest. To the north is more of the unpassable briars seeming to make their way through the trees. To the west is a thinner section of the forest. To the south, more of the outskirts of the forest. To the east,the woods get thicker and older.
 
 
