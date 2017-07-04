@@ -1,25 +1,25 @@
 [0,0]
 Before you lies a large field of grain. It looks a little like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north and west is an unpassable briar patch. To the south and east is more of the cornfield.
 
-[0,1] 
+[1,0] 
 Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north is more of the unpassable briars. In all the other directions, there is still more cornfield.
 
-[0,2]
+[2,0]
 Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north is more of the unpassable briars. In all the other directions, there is still more cornfield.
 
-[0,3]
+[3,0]
 Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north is more of the unpassable briars. In all the other directions, there is still more cornfield.
 
-[0,4]
+[4,0]
 Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north is more of the unpassable briars. In all the other directions, there is still more cornfield.
 
-[0,5]
+[5,0]
 Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north is more of the unpassable briars. In all the other directions, there is still more cornfield.
 
-[0,6]
+[6,0]
 Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north is more of the unpassable briars. In all the other directions, there is still more cornfield.
 
-[0,7]
+[7,0]
 Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north is more of the unpassable briars. To the east, there appears to be a break in the field. In all the other directions, there is still more cornfield.
 
 [0,8]
