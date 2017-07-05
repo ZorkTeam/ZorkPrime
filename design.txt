@@ -25,7 +25,7 @@ Actions
 Quit
 Save (if time)
 Load (if time)
-Look <direction>
+**Look <direction>  --> Nixed include minor descriptions in map.txt
 Go <direction>
 Use <item in satchel>
 Search (searches the area for findable items) Finds are random and can be nothing
@@ -63,6 +63,6 @@ Bow Attack=3 Critical +5
 
 Actions
 -------
-Look/Go N/S/E/W
+Go N/S/E/W
 Use <item> if not present lose round if in combat
   
