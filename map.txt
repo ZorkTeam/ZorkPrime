@@ -664,29 +664,40 @@ Before you lies another section of the field of grain. It looks like rows of poo
 [4,17]
 
 [5,17]
+Start? I'll let you fill this one in.
 
 [6,17]
+Before you lies the edge of a very old forest. To the south, the tree cover is too thick to proceed. To the east, the forest gets deeper. To the west, you can see a swamp in the distance. The field continues to the north. There is nothing apparent here that would be of interest.
 
 [7,17]
+Before you lies a forest, the trees old and slightly in decay. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [8,17]
+Before you lies more of the old forest. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [9,17]
+Before you lies more of the old forest. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [10,17]
+Before you lies more of the old forest. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [11,17]
+Before you lies more of the old forest. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [12,17]
+Before you lies more of the old forest. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [13,17]
+Before you lies more of the old forest. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [14,17]
+Before you lies more of the old forest. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [15,17]
+Before you lies the deepest section of the old forest. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [16,17]
-Test
+Before you lies the deepest section of the old forest. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [17,17]
-BOTTOM RIGHT CORNER.
+Before you lies the deepest section of the old forest. To the south and east, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
