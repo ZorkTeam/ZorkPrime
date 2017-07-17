@@ -646,12 +646,16 @@ Before you lies another section of the field of grain. It looks like rows of poo
 [13,16]
 
 [14,16]
+Before you lies more of the old forest. The trees continue in all directions. There is nothing apparent here that would be of interest.
 
 [15,16]
+Before you lies the deepest section of the old forest. The trees continue in all directions, getting thicker to the east and south. There is nothing apparent here that would be of interest.
 
 [16,16]
+Before you lies the deepest section of the old forest. The trees continue in all directions, getting thicker to the east and south. There is nothing apparent here that would be of interest.
 
 [17,16]
+Before you lies the deepest section of the old forest. To the east, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [0,17]
 
