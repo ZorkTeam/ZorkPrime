@@ -646,46 +646,65 @@ Before you lies another section of the field of grain. It looks like rows of poo
 [13,16]
 
 [14,16]
+Before you lies more of the old forest. The trees continue in all directions. There is nothing apparent here that would be of interest.
 
 [15,16]
+Before you lies the deepest section of the old forest. The trees continue in all directions, getting thicker to the east and south. There is nothing apparent here that would be of interest.
 
 [16,16]
+Before you lies the deepest section of the old forest. The trees continue in all directions, getting thicker to the east and south. There is nothing apparent here that would be of interest.
 
 [17,16]
+Before you lies the deepest section of the old forest. To the east, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [0,17]
+You see the unmistakable tracks of large reptiles to the south and west. It would be inadvisable to travel in either such direction. To the north and east, you can only see more swamp. There is nothing apparent here that would be of interest.
 
 [1,17]
+You see the unmistakable tracks of large reptiles to the south. It would be inadvisable to travel in that direction. To the north, east, and west, there is only more swamp. There is nothing apparent here that would be of interest.
 
 [2,17]
 
 [3,17]
 
 [4,17]
+You find yourself at the edge of the swamp outside the house. The ground is ankle-deep in water. Why anyone would ever want to build a house near here is a maystery to you. To the south, you hear some odd sounds that you decide you want to avoid. To the north and west, there is more swamp. You can still see the house in the east from here.
 
 [5,17]
+!!!!!!!! Start? I'll let you fill this one in. !!!!!!!!!!!!
 
 [6,17]
+You find yourself at the beginning of a road heading north. To the south, there is a dense forest. It appears too dangerous to continue in that direction. To the east, the forest looks more hospitable. Across the road, you can see a house to the west. There is nothing apparent here that would be of interest.
 
 [7,17]
+Before you lies a forest, the trees old and slightly in decay. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [8,17]
+Before you lies more of the old forest. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [9,17]
+Before you lies more of the old forest. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [10,17]
+Before you lies more of the old forest. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [11,17]
+Before you lies more of the old forest. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [12,17]
+Before you lies more of the old forest. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [13,17]
+Before you lies more of the old forest. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [14,17]
+Before you lies more of the old forest. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [15,17]
+Before you lies the deepest section of the old forest. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [16,17]
+Before you lies the deepest section of the old forest. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [17,17]
-BOTTOM RIGHT CORNER.
+Before you lies the deepest section of the old forest. To the south and east, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
