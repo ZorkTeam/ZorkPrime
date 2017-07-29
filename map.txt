@@ -586,26 +586,37 @@ You find yourself on the edge of a deep, dense forest. The trees look to be very
 You find yourself on a long road heading north and south. To the east, there is a dense, ancient forest. To the west, there is a swamp. There is nothing apparent here that would be of interest.
 
 [7,13]
+You find yourself on the edge of a deep, dense forest. The trees look to be very old. To the west is the intersection of a large road. To the east, south, and north, there is more forest. There is nothing apparent here that would be of interest.
 
 [8,13]
+The forest is filled with life. You can hear the the calls of numerous birds and insects. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [9,13]
+The forest is filled with life. You can hear the the calls of numerous birds and insects. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [10,13]
+The forest is filled with life. You can hear the the calls of numerous birds and insects. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [11,13]
+The forest is filled with life. You can hear the the calls of numerous birds and insects. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [12,13]
+The forest is filled with life. You can hear the the calls of numerous birds and insects. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [13,13]
+The forest is filled with life. You can hear the the calls of numerous birds and insects. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [14,13]
+The forest is filled with life. You can hear the the calls of numerous birds and insects. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [15,13]
+The forest is filled with life. You can hear the the calls of numerous birds and insects. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [16,13]
+The forest is filled with life. You can hear the the calls of numerous birds and insects. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [17,13]
+The forest is filled with life. You can hear the the calls of numerous birds and insects. The forest continues in every direction. To the east, the trees are too thick to proceed safely. There is nothing apparent here that would be of interest.
 
 [0,14]
 
