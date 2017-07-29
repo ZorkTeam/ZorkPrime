@@ -44,13 +44,13 @@ Before you lies a thin forest. In this area, there are many boulders with thin a
 Before you lies a thin forest. In this area, there are many boulders with thin and expansive pine trees sprouting among them. There is nothing apparent to you that would be of interest. To the north lies a large, unpassable cliff wall. To the west the thin, craggy forest continues. To the east lies the walls of a large decrepit and abandoned shack. To the south lies more thin forest.
 
 [15,0]
-Before you lies a seemingly abandoned shack, a utility shed of some sort. Perhaps it is worth investigating. To the north lies a large, impassable cliff wall. Seems every other direction you go takes you to a thin, craggy forest. 
+Before you lies a seemingly abandoned shack, a utility shed of some sort. Perhaps it is worth investigating. To the north lies a large, impassable cliff wall. Seems every other direction you go takes you to a thin, craggy forest.
 
 [16,0]
 Before you lies a thin, expansive, and bouldered forest. There is nothing apparent to you that would be of interest.  To the north is a large, unpassable cliff wall, with the begining of a large mountain to the east. To the west, there lies the walls of a large decrepit and abandoned shack. To the south lies more thin forest.
 
 [17,0]
-Before you lies an enormous mountain, lush with wildflowers, tall pines, and snow-covered mountain top, and a thunderous waterfall. There is nothing apparent to you that would be of interest. To both your north and east are large, unpassable cliff walls. To the west and south - a thin, craggy forest. 
+Before you lies an enormous mountain, lush with wildflowers, tall pines, and snow-covered mountain top, and a thunderous waterfall. There is nothing apparent to you that would be of interest. To both your north and east are large, unpassable cliff walls. To the west and south - a thin, craggy forest.
 
 [0,1]
 Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the west, there are large, unpassable briars. In all other directions, there is more desolate cornfield.
@@ -83,13 +83,13 @@ Before you lies a gap between the corn fields (Eastward) and a forest (Westward)
 Before you lies the outskirts of what looks like a deep forest. In this area the trees seem to be young saplings of different species. Oak, some pine, and maple. There is nothing apparent to you that would be of interest. To the north is more of the unpassable briars seeming to make their way through the trees. To the west is a road leading south. To the south, more of the outskirts of the forest. To the east, the woods get thicker and older.
 
 [10,1]
-Before you lies a deep forest. In this area the trees seem to be older saplings of different species. Oak, some pine, and maple. the trunks seem to be about a foot in diameter. There is nothing apparent to you that would be of interest. To the north, west, and south is more of the outskirts of the forest. To the east, the woods get thicker and older. 
+Before you lies a deep forest. In this area the trees seem to be older saplings of different species. Oak, some pine, and maple. the trunks seem to be about a foot in diameter. There is nothing apparent to you that would be of interest. To the north, west, and south is more of the outskirts of the forest. To the east, the woods get thicker and older.
 
 [11,1]
-Before you lies a deep forest. In this area the trees seem to be old. Oak, some pine, and maple. the trunks seem to be about a foot and more in diameter. There is nothing apparent to you that would be of interest. To the north, west, and south, the deep forest continues. To the east, there seems to be a thinner, more craggy section of the forest. 
+Before you lies a deep forest. In this area the trees seem to be old. Oak, some pine, and maple. the trunks seem to be about a foot and more in diameter. There is nothing apparent to you that would be of interest. To the north, west, and south, the deep forest continues. To the east, there seems to be a thinner, more craggy section of the forest.
 
 [12,1]
-Before you lies a thin, expansive, and bouldered forest. There is nothing apparent to you that would be of interest. From the north you smell the faint scent of smoke in the craggy woods, while southwards and eastwards is just looks like the boulderous woods continues. To the west lies a deep, old forest. 
+Before you lies a thin, expansive, and bouldered forest. There is nothing apparent to you that would be of interest. From the north you smell the faint scent of smoke in the craggy woods, while southwards and eastwards is just looks like the boulderous woods continues. To the west lies a deep, old forest.
 
 [13,1]
 Before you lies a thin, expansive, and bouldered forest. The smell of fresh pine fills the air, with sounds of water roaring in the distance. There is nothing apparent to you that would be of interest. All directions seem to lead into more of the thin, and rocky woods.
@@ -179,16 +179,16 @@ Before you lies another section of the field of grain. It looks like rows of poo
 Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north is more of the unpassable briars. To the east are signs of an abandoned village. In all the other directions there is still more cornfield.
 
 [6,3]
-Before you lies an abandoned village. The homes are left intact, as though the residents vanished without a trace. You see a dirty, simple town market, full of rotting foods and meats. Despite the town being in good shape, it is clear something terrible happened here. The town only continues to the south and east, while to the north and west are expansive and poorly maintained cornfield. 
+Before you lies an abandoned village. The homes are left intact, as though the residents vanished without a trace. You see a dirty, simple town market, full of rotting foods and meats. Despite the town being in good shape, it is clear something terrible happened here. The town only continues to the south and east, while to the north and west are expansive and poorly maintained cornfield.
 
 [7,3]
 Before you lies an abandoned village. The homes are left intact, as though the residents vanished without a trace. You see pins where the kept their livestock. At first glance they all seemed to die of starvation, but you see some still writhing on the ground, shambling and silent. Maybe you should go... To the west and south, the village only continues. To the north and east are expansive and poorly mantained cornfield.
 
 [8,3]
-Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the east appears to be the outskirts of a deep and old forest. To the west there are signs of an abandoned village. To the north and south lies only more poorly maintained cornfield. 
+Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the east appears to be the outskirts of a deep and old forest. To the west there are signs of an abandoned village. To the north and south lies only more poorly maintained cornfield.
 
 [9,3]
-Before you lies the outskirts of what looks like a deep forest. In this area the trees seem to be young saplings of different species. Oak, some pine, and maple. There is nothing apparent to you that would be of interest. To the north and east there is only depper forest, to the south continues the forest outskirts. To the west expansive and poorly maintained cornfield. 
+Before you lies the outskirts of what looks like a deep forest. In this area the trees seem to be young saplings of different species. Oak, some pine, and maple. There is nothing apparent to you that would be of interest. To the north and east there is only depper forest, to the south continues the forest outskirts. To the west expansive and poorly maintained cornfield.
 
 [10,3]
 Before you lies a deep forest. In this area the trees seem to be old. Oak, some pine, and maple. the trunks seem to be about a foot and more in diameter. There is nothing apparent to you that would be of interest. To the west lies the outskirts of the forest. In all other directions the forest only grows deeper and older.
@@ -713,8 +713,10 @@ You see the unmistakable tracks of large reptiles to the south and west. It woul
 You see the unmistakable tracks of large reptiles to the south. It would be inadvisable to travel in that direction. To the north, east, and west, there is only more swamp. There is nothing apparent here that would be of interest.
 
 [2,17]
+You see the unmistakable tracks of large reptiles to the south. It would be inadvisable to travel in that direction. To the north, east, and west, there is only more swamp. There is nothing apparent here that would be of interest.
 
 [3,17]
+You see the unmistakable tracks of large reptiles to the south. It would be inadvisable to travel in that direction. To the north, east, and west, there is only more swamp. There is nothing apparent here that would be of interest.
 
 [4,17]
 You find yourself at the edge of the swamp outside the house. The ground is ankle-deep in water. Why anyone would ever want to build a house near here is a maystery to you. To the south, you hear some odd sounds that you decide you want to avoid. To the north and west, there is more swamp. You can still see the house in the east from here.
