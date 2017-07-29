@@ -1,6 +1,7 @@
 from __future__ import print_function
 import os
 import random
+import time
 
 class GameEngine(object):
     def __init__(self):
@@ -10,6 +11,7 @@ class GameEngine(object):
         self.location_description = ''
         self.enemy = None
         self.enemy_description = ''
+        self.items = []
     
     
     def main_loop(self):
@@ -107,7 +109,49 @@ class GameEngine(object):
             raw_input("\nPress Enter to continue.")
         
     def search_area(self):
-        return
+        print("Searching the area...")
+        time.sleep(5)
+        new_item = self.generate_item()
+
+        print("After a careful search of the area, you've found...")
+        if new_item:
+            print("\t\t" + new_item)
+            self.items.append(new_item)
+            print("You added the " + new_item + " to your satchel.")
+        else:
+            print("\t\tNothing!")
+
+
+    def generate_item(self):
+        item_chance = random.randint(500)
+
+        if item_chance >= 400:
+            return None
+        elif item_chance >= 300:
+            return 'A bundle of sticks'
+        elif item_chance >= 250:
+            return 'Uncommon Item #1'
+        elif item_chance >= 200:
+            return 'Uncommon Item #2'
+        elif item_chance >= 150:
+            return 'Uncommon Item #3'
+        elif item_chance >= 100:
+            return 'Uncommon Item #4'
+        elif item_chance >= 80:
+            return 'Rare Item #1'
+        elif item_chance >= 60:
+            return 'Rare Item #2'
+        elif item_chance >= 40:
+            return 'Rare Item #3'
+        elif item_chance >= 20:
+            return 'Rare Item #4'
+        elif item_chance >= 10:
+            return 'Special Thing'
+        elif item_chance >= 2:
+            return 'Other Special Thing'
+        elif item_chance == 1:
+            return 'ULTIMATE HAMMER OF GOD'
+
         
     def satchel_action(self):
         return
