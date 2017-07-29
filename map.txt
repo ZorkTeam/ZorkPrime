@@ -713,8 +713,10 @@ You see the unmistakable tracks of large reptiles to the south and west. It woul
 You see the unmistakable tracks of large reptiles to the south. It would be inadvisable to travel in that direction. To the north, east, and west, there is only more swamp. There is nothing apparent here that would be of interest.
 
 [2,17]
+You see the unmistakable tracks of large reptiles to the south. It would be inadvisable to travel in that direction. To the north, east, and west, there is only more swamp. There is nothing apparent here that would be of interest.
 
 [3,17]
+You see the unmistakable tracks of large reptiles to the south. It would be inadvisable to travel in that direction. To the north, east, and west, there is only more swamp. There is nothing apparent here that would be of interest.
 
 [4,17]
 You find yourself at the edge of the swamp outside the house. The ground is ankle-deep in water. Why anyone would ever want to build a house near here is a maystery to you. To the south, you hear some odd sounds that you decide you want to avoid. To the north and west, there is more swamp. You can still see the house in the east from here.
