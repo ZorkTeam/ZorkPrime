@@ -634,26 +634,37 @@ The forest is filled with life. You can hear the the calls of numerous birds and
 You find yourself on a long road heading north and south. To the east, there is a dense, ancient forest. To the west, there is a swamp. There is nothing apparent here that would be of interest.
 
 [7,14]
+You find yourself on the edge of a deep, dense forest. The trees look to be very old. To the west is the intersection of a large road. To the east, south, and north, there is more forest. There is nothing apparent here that would be of interest.
 
 [8,14]
+The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [9,14]
+The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [10,14]
+The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [11,14]
+The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [12,14]
+The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [13,14]
+The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [14,14]
+The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [15,14]
+The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [16,14]
+The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [17,14]
+The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. To the east, the trees are too thick to proceed. There is nothing apparent here that would be of interest.
 
 [0,15]
 
