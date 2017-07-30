@@ -12,7 +12,8 @@ class GameEngine(object):
         self.enemy = None
         self.enemy_description = ''
         self.items = []
-    
+        self.exititemx = random.randint(0,17)
+        self.exititemy = random.randint(0,17)
     
     def main_loop(self):
         while self.action != 'QUIT':
@@ -70,8 +71,7 @@ class GameEngine(object):
         else:
             print("I'm confused. Do what now?")
             raw_input("\nPress Enter to continue.")
-        
-        
+ 
     def navigate(self):
         if "EAST" in self.action:
             self.locationx += 1
@@ -115,9 +115,9 @@ class GameEngine(object):
 
         print("After a careful search of the area, you've found...")
         if new_item:
-            print("\t\t" + new_item)
+            print("\t\t" + new_item[0])
             self.items.append(new_item)
-            print("You added the " + new_item + " to your satchel.")
+            print("You added the " + new_item[0] + " to your satchel.")
         else:
             print("\t\tNothing!")
 
@@ -125,34 +125,36 @@ class GameEngine(object):
     def generate_item(self):
         item_chance = random.randint(500)
 
+        if self.locationx == self.exititemx and self.locationy == self.exititemy:
+            return ("Briar killer", -2, 0)
+
         if item_chance >= 400:
             return None
         elif item_chance >= 300:
-            return 'A bundle of sticks'
+            return ('A bundle of sticks', 0, 1)
         elif item_chance >= 250:
-            return 'Uncommon Item #1'
+            return ('Small potion', 1, 5)
         elif item_chance >= 200:
-            return 'Uncommon Item #2'
+            return ('Medium potion', 1, 10)
         elif item_chance >= 150:
-            return 'Uncommon Item #3'
+            return ('Large Potion', 1, 20)
         elif item_chance >= 100:
-            return 'Uncommon Item #4'
+            return ('Spear', 0, 10)
         elif item_chance >= 80:
-            return 'Rare Item #1'
+            return ('Long Sword',0, 15)
         elif item_chance >= 60:
-            return 'Rare Item #2'
+            return ('Bow and Arrows', 0, 20)
         elif item_chance >= 40:
-            return 'Rare Item #3'
+            return ('Gold', -1, 0)
         elif item_chance >= 20:
-            return 'Rare Item #4'
+            return ('Jewels', -1, 0)
         elif item_chance >= 10:
-            return 'Special Thing'
+            return ('Fireball', 0, 40)
         elif item_chance >= 2:
-            return 'Other Special Thing'
+            return ('LIghtning', 0, 50)
         elif item_chance == 1:
-            return 'ULTIMATE HAMMER OF GOD'
+            return ('ULTIMATE HAMMER OF GOD', 0, 100)
 
-        
     def satchel_action(self):
         return
     
