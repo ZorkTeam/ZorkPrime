@@ -355,7 +355,6 @@ Before you lies another section of the field of grain. It looks like rows of poo
 [10,6]
 Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the east there appears to be some outskirts to a large forest. To the south appears to be the begining of lush and green cottonfields. In all other directions there is still more cornfield.
 
-
 [11,6]
 Before you lies the outskirts of a forest. The trees seem snapped and broken, as if large beast came stampeding over them. To the north lies a deep, thick forest full of old pines and animal life. To the west and east lies more outskirts of the forest. To the south appears to be the begining of lush and green cottonfields.
 
