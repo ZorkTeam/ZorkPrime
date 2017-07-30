@@ -756,16 +756,22 @@ The forest is filled with life. You can hear the the calls of numerous birds and
 The forest is filled with life. You can hear the the calls of numerous birds and insects. The forest continues in every direction. To the east, the trees are too thick to proceed safely. There is nothing apparent here that would be of interest.
 
 [0,14]
+Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. To the west there are unmistakable tracks of large reptiles - you don't want to wrestle an angry aligator, do you? In all other directions the swamp seems to only get deeper and get more pungent.
 
 [1,14]
+Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. In all directions the swamp seems to only get deeper and more pungent.
 
 [2,14]
+Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. In all directions the swamp seems to only get deeper and more pungent.
 
 [3,14]
+Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. In all directions the swamp seems to only get deeper and more pungent.
 
 [4,14]
+Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. In all directions the swamp seems to only get deeper and more pungent.
 
 [5,14]
+Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. To the east there appears to be signs of a road. In all other directions the swamp seems to only get deeper and more pungent.
 
 [6,14]
 You find yourself on a long road heading north and south. To the east, there is a dense, ancient forest. To the west, there is a swamp. There is nothing apparent here that would be of interest.
@@ -804,16 +810,22 @@ The forest is very dense, not much light is making it through the trees. Leaves 
 The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. To the east, the trees are too thick to proceed. There is nothing apparent here that would be of interest.
 
 [0,15]
+Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. To the west there are unmistakable tracks of large reptiles - you don't want to wrestle an angry aligator, do you? In all other directions the swamp seems to only get deeper and get more pungent.
 
 [1,15]
+Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. In all directions the swamp seems to only get deeper and more pungent.
 
 [2,15]
+Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. In all directions the swamp seems to only get deeper and more pungent.
 
 [3,15]
+Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. In all directions the swamp seems to only get deeper and more pungent.
 
 [4,15]
+Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. In all directions the swamp seems to only get deeper and more pungent.
 
 [5,15]
+Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. To the east appears to be signs of a road. In all other directions the swamp seems to only get deeper and more pungent.
 
 [6,15]
 You find yourself on a long road heading north and south. To the east, there is a dense, ancient forest. To the west, there is a swamp. There is nothing apparent here that would be of interest.
@@ -841,16 +853,22 @@ You find yourself on a long road heading north and south. To the east, there is 
 [17,15]
 
 [0,16]
+Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. To the west there are unmistakable tracks of large reptiles - you don't want to wrestle an angry aligator, do you? In all other directions the swamp seems to only get deeper and get more pungent.
 
 [1,16]
+Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. In all directions the swamp seems to only get deeper and more pungent.
 
 [2,16]
+Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. In all directions the swamp seems to only get deeper and more pungent.
 
 [3,16]
+Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. In all directions the swamp seems to only get deeper and more pungent.
 
 [4,16]
+Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. In all directions the swamp seems to only get deeper and more pungent.
 
 [5,16]
+Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. To the east appears to be signs of a road. In all other directions the swamp seems to only get deeper and more pungent.
 
 [6,16]
 You find yourself on a long road heading north and south. To the east, there is a dense, ancient forest. To the west, there is a swamp. There is nothing apparent here that would be of interest.
