@@ -48,7 +48,10 @@ class GameEngine(object):
 
     def generate_enemy(self):
         possible = random.randint(1,10)
-        if possible not in [2,5,10]:
+        if (possible not in [2,5,10] or 
+            (self.locationx == 5 and self.locationy == 17) or
+            (self.locationx == 8 and self.locationy == 0)):
+
             self.enemy = None
             self.enemy_description = ''
             return 
