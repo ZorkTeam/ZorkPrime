@@ -218,7 +218,7 @@ class GameEngine(object):
         elif item_chance >= 10:
             return ('Fireball', 0, 40)
         elif item_chance >= 2:
-            return ('LIghtning', 0, 50)
+            return ('Lightning', 0, 50)
         elif item_chance == 1:
             return ('ULTIMATE HAMMER OF GOD', 0, 100)
 
@@ -268,7 +268,11 @@ class GameEngine(object):
                     if self.locationx == 8 and self.locationy == 0:
                         print("The Wand of Solomon glows and the briars have opened the road. You can finally leave!!")
                     
+                    else:
+                        print("The Wand makes a stuttering sound but does nothing else. Is this thing broken?!!\n")
                     
+                    raw_input("Press Enterto continue.")
+                    return False
         
-        return
+        return False
     
