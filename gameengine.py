@@ -128,6 +128,9 @@ class GameEngine(object):
 
         elif "HELP" in self.action:
             self.get_help()
+
+        elif "SATCHEL" in self.action:
+            self.get_satchel()
         
         else:
             print("I'm confused. Do what now?")
@@ -221,6 +224,13 @@ class GameEngine(object):
         with open("help.txt", "r") as help_file:
             for line in help_file:
                 print(line.strip())
+        raw_input("\nPress Enter to continue.")
+        return
+
+    def get_satchel(self):
+        print('Contents of satchel:\n')
+        for item in self.items:
+            print(item[0])
         raw_input("\nPress Enter to continue.")
         return
 
