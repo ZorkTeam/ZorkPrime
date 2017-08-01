@@ -1,0 +1,6 @@
+-- HELP --
+
+quit:                           Quits the game
+go [north/south/east/west]:     Go in the direction specified
+search:                         Search the area
+use [item]:                     Use the specified item
