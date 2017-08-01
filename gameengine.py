@@ -171,7 +171,7 @@ class GameEngine(object):
         
     def search_area(self):
         print("Searching the area...")
-        time.sleep(5)
+        time.sleep(3)
         new_item = self.generate_item()
 
         print("After a careful search of the area, you've found...")
@@ -220,7 +220,8 @@ class GameEngine(object):
     def get_help(self):
         with open("help.txt", "r") as help_file:
             for line in help_file:
-                print(line)
+                print(line.strip())
+        raw_input("\nPress Enter to continue.")
         return
 
     def satchel_action(self):
