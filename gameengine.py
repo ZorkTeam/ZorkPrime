@@ -54,18 +54,66 @@ class GameEngine(object):
             return 
 
         else:
-            which = random.randint(1,4)
-
-            with open("enemy.txt", "r") as enemies:
-                for line in enemies:
-                    if line == "[{0}]\n".format(which):
-                        name = enemies.next().strip()
-                        hitpoints = int(enemies.next())
-                        deals = int(enemies.next())
-                        description = enemies.next()
-                        
-                        self.enemy = name, hitpoints, deals, description
-                        break
+            if self.locationx in range(0,9) and self.locationy in range(0, 12):
+                which = random.randint(1,4)
+                with open("CornfieldEnemies.txt", "r") as enemies:
+                    for line in enemies:
+                        if line == "[{0}]\n".format(which):
+                            name = enemies.next().strip()
+                            hitpoints = int(enemies.next())
+                            deals = int(enemies.next())
+                            description = enemies.next()
+                            
+                            self.enemy = name, hitpoints, deals, description
+                            break
+            elif self.locationx in range(9,18) and self.locationy in range(0, 7):
+                which = random.randint(1,6)
+                with open("CraggyEnemies.txt", "r") as enemies:
+                    for line in enemies:
+                        if line == "[{0}]\n".format(which):
+                            name = enemies.next().strip()
+                            hitpoints = int(enemies.next())
+                            deals = int(enemies.next())
+                            description = enemies.next()
+                            
+                            self.enemy = name, hitpoints, deals, description
+                            break
+            elif self.locationx in range(9,18) and self.locationy in range(7, 13):
+                which = random.randint(1,2)
+                with open("PlanationEnemies.txt", "r") as enemies:
+                    for line in enemies:
+                        if line == "[{0}]\n".format(which):
+                            name = enemies.next().strip()
+                            hitpoints = int(enemies.next())
+                            deals = int(enemies.next())
+                            description = enemies.next()
+                            
+                            self.enemy = name, hitpoints, deals, description
+                            break
+            elif self.locationx in range(0,6) and self.locationy in range(13, 18):
+                which = random.randint(1,4)
+                with open("SwampEnemies.txt", "r") as enemies:
+                    for line in enemies:
+                        if line == "[{0}]\n".format(which):
+                            name = enemies.next().strip()
+                            hitpoints = int(enemies.next())
+                            deals = int(enemies.next())
+                            description = enemies.next()
+                            
+                            self.enemy = name, hitpoints, deals, description
+                            break
+            elif self.locationx in range(6,18) and self.locationy in range(13, 18):
+                which = random.randint(1,4)
+                with open("ForestEnemies.txt", "r") as enemies:
+                    for line in enemies:
+                        if line == "[{0}]\n".format(which):
+                            name = enemies.next().strip()
+                            hitpoints = int(enemies.next())
+                            deals = int(enemies.next())
+                            description = enemies.next()
+                            
+                            self.enemy = name, hitpoints, deals, description
+                            break
 
     def process_action(self):
         if "QUIT" in self.action:

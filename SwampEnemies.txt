@@ -1,0 +1,23 @@
+[1]
+Small Aligator
+15
+5
+A small aligator stands before you. Hidden under the water, it takes you by surprise and quickly lunges towards you.
+
+[2]
+Large Aligator
+25
+10
+A large aligator stands before you. Hidden under the water, ittakes you by surprise and quickly lunges towards you.
+
+[3]
+Leper
+15
+25
+A diseased and ostrasized leper stands before you. He quakes and buckles under his own weight, yet points a crude and jagged blade toward you.
+
+[4]
+Missionary
+20
+20
+A self procalimed holy man stands before you, on a divine mission to cleanse the swamps of all sinful creatures and disease. Unfortunately he finds you to be rather sinful. 

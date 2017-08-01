@@ -1,0 +1,35 @@
+[1]
+Mountain Troll Welp
+20
+7
+A stunted, angry troll stands before you. Covered in matted, unkempt fur, he wields a large club clearly fashioned from a simple piece of rotting wood.
+
+[2]
+Mountain Troll
+30
+15
+An angry, vicious troll stands before you. Covered in matted, unkempt fur, he wields a large and primitive club.
+
+[3]
+Robber
+15
+10
+A lone crook stands before you. He must be hiding up in these mountains with his loot. He brandishes a small but razor sharp blade.
+
+[4]
+Expert Robber
+25
+15
+A lone crook stands before you. He appears seasoned, and looks more interested in pilfering your goods ofd your corpse than making small talk.
+
+[5]
+Warthog
+20
+10
+A wild warthog stands before you. It's tusks clearly overgrown beyond the boar's help, he trashes and bucks wildly towards you.
+
+[6]
+Grizzly Bear
+50
+20
+A massive and towering bear stands before you. It's paws are nearly as wide as your torso, and it's roar shakes the trees and quakes the ground. 
