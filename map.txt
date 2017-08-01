@@ -355,6 +355,7 @@ Before you lies another section of the field of grain. It looks like rows of poo
 [10,6]
 Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the east there appears to be some outskirts to a large forest. To the south appears to be the begining of lush and green cottonfields. In all other directions there is still more cornfield.
 
+
 [11,6]
 Before you lies the outskirts of a forest. The trees seem snapped and broken, as if large beast came stampeding over them. To the north lies a deep, thick forest full of old pines and animal life. To the west and east lies more outskirts of the forest. To the south appears to be the begining of lush and green cottonfields.
 
@@ -773,40 +774,40 @@ Before you lies a vast and clearly untouched swamp. The smell burns your eyes an
 Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. To the east there appears to be signs of a road. In all other directions the swamp seems to only get deeper and more pungent.
 
 [6,14]
-You find yourself on a long road heading north and south. To the east, there is a dense, ancient forest. To the west, there is a swamp. There is nothing apparent here that would be of interest.
+Before you lies a long road heading north and south. To the east, there is a dense, ancient forest. To the west, there is a swamp. There is nothing apparent here that would be of interest.
 
 [7,14]
-You find yourself on the edge of a deep, dense forest. The trees look to be very old. To the west is the intersection of a large road. To the east, south, and north, there is more forest. There is nothing apparent here that would be of interest.
+Before you lies the edge of a deep, dense forest. The trees look to be very old. To the west is the intersection of a large road. To the east, south, and north, there is more forest. There is nothing apparent here that would be of interest.
 
 [8,14]
-The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
+Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [9,14]
-The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
+Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [10,14]
-The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
+Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [11,14]
 The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [12,14]
-The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
+Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [13,14]
-The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
+Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [14,14]
-The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
+Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [15,14]
-The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
+Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [16,14]
-The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
+Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [17,14]
-The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. To the east, the trees are too thick to proceed. There is nothing apparent here that would be of interest.
+Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. To the east, the trees are too thick to proceed. There is nothing apparent here that would be of interest.
 
 [0,15]
 Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. To the west there are unmistakable tracks of large reptiles - you don't want to wrestle an angry aligator, do you? In all other directions the swamp seems to only get deeper and get more pungent.
@@ -827,29 +828,40 @@ Before you lies a vast and clearly untouched swamp. The smell burns your eyes an
 Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. To the east appears to be signs of a road. In all other directions the swamp seems to only get deeper and more pungent.
 
 [6,15]
-You find yourself on a long road heading north and south. To the east, there is a dense, ancient forest. To the west, there is a swamp. There is nothing apparent here that would be of interest.
+Before you lies a long road heading north and south. To the east, there is a dense, ancient forest. To the west, there is a swamp. There is nothing apparent here that would be of interest.
 
 [7,15]
+Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. To the west there appears to be signs of a road. The forest continues in every other direction. There is nothing apparent here that would be of interest.
 
 [8,15]
+Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [9,15]
+Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [10,15]
+Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [11,15]
+Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [12,15]
+Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [13,15]
+Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [14,15]
+Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [15,15]
+Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [16,15]
+Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [17,15]
+Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. To the west the vines and trees become too thick to even see through, let alone proceed. The forest continues in every other direction. There is nothing apparent here that would be of interest.
 
 [0,16]
 Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. To the west there are unmistakable tracks of large reptiles - you don't want to wrestle an angry aligator, do you? In all other directions the swamp seems to only get deeper and get more pungent.
@@ -870,21 +882,28 @@ Before you lies a vast and clearly untouched swamp. The smell burns your eyes an
 Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. To the east appears to be signs of a road. In all other directions the swamp seems to only get deeper and more pungent.
 
 [6,16]
-You find yourself on a long road heading north and south. To the east, there is a dense, ancient forest. To the west, there is a swamp. There is nothing apparent here that would be of interest.
+Before you lies a long road heading north and south. To the east, there is a dense, ancient forest. To the west, there is a swamp. There is nothing apparent here that would be of interest.
 
 [7,16]
+Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. To the west there appears to be signs of a road. The forest continues in every other direction. There is nothing apparent here that would be of interest.
 
 [8,16]
+Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [9,16]
+Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [10,16]
+Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [11,16]
+Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [12,16]
+Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [13,16]
+Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [14,16]
 Before you lies more of the old forest. The trees continue in all directions. There is nothing apparent here that would be of interest.
@@ -899,16 +918,16 @@ Before you lies the deepest section of the old forest. The trees continue in all
 Before you lies the deepest section of the old forest. To the east, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [0,17]
-You see the unmistakable tracks of large reptiles to the south and west. It would be inadvisable to travel in either such direction. To the north and east, you can only see more swamp. There is nothing apparent here that would be of interest.
+Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. You see the unmistakable tracks of large reptiles to the south and west. It would be inadvisable to travel in either such direction. To the north and east, you can only see more swamp. There is nothing apparent here that would be of interest.
 
 [1,17]
-You see the unmistakable tracks of large reptiles to the south. It would be inadvisable to travel in that direction. To the north, east, and west, there is only more swamp. There is nothing apparent here that would be of interest.
+Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. You see the unmistakable tracks of large reptiles to the south. It would be inadvisable to travel in that direction. To the north, east, and west, there is only more swamp. There is nothing apparent here that would be of interest.
 
 [2,17]
-You see the unmistakable tracks of large reptiles to the south. It would be inadvisable to travel in that direction. To the north, east, and west, there is only more swamp. There is nothing apparent here that would be of interest.
+Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. You see the unmistakable tracks of large reptiles to the south. It would be inadvisable to travel in that direction. To the north, east, and west, there is only more swamp. There is nothing apparent here that would be of interest.
 
 [3,17]
-You see the unmistakable tracks of large reptiles to the south. It would be inadvisable to travel in that direction. To the north, east, and west, there is only more swamp. There is nothing apparent here that would be of interest.
+Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. You see the unmistakable tracks of large reptiles to the south. It would be inadvisable to travel in that direction. To the north, east, and west, there is only more swamp. There is nothing apparent here that would be of interest.
 
 [4,17]
 Before you lies the edge of the swamp outside the house. The ground is ankle-deep in water. Why anyone would ever want to build a house near here is a mystery to you. To the south, you hear some odd sounds that you decide you want to avoid. To the north and west, there is more swamp. You can still see the house in the east from here.
