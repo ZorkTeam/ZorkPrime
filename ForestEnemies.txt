@@ -1,0 +1,23 @@
+[1]
+Wolf
+15
+10
+A lone rabid wolf stands before you. At least there is only one...
+
+[2]
+Wolf Pack
+40
+20
+A pack of wolves begin to surround you. They aren't large and are clearly diseased and malnourished, but don't undervalue their strength in numbers.
+
+[3]
+Ogre
+60
+10
+A massive and stupid ogre stands before you. He appears feathered, but on closer look he has covered himself only in dead leaves and mud, wielding an entire tree he swings clumsily. 
+
+[4]
+Goblin
+20
+15
+A meek goblin appears before you. Wielding a simple shield and spear, he shouts at you in an unrefined and broken language. Does he want to be friends?

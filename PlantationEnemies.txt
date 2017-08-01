@@ -1,0 +1,11 @@
+[1]
+Slave
+15
+5
+A meek and deprived slave stands before you. Clearly stripped of his dignity and sanity, he attacks you immediately for tresspassing the obviously abandoned grounds.
+
+[2]
+Slaver
+25
+15
+A round and gruff slaver stands before you. He wears typical fieldhand clothes but wields a long whip, which is not for plowing the fields. 
