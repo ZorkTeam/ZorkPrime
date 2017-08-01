@@ -125,6 +125,9 @@ class GameEngine(object):
         
         elif "USE " in self.action:
             self.satchel_action()
+
+        elif "HELP" in self.action:
+            self.get_help()
         
         else:
             print("I'm confused. Do what now?")
@@ -213,6 +216,12 @@ class GameEngine(object):
             return ('LIghtning', 0, 50)
         elif item_chance == 1:
             return ('ULTIMATE HAMMER OF GOD', 0, 100)
+
+    def get_help(self):
+        with open("help.txt", "r") as help_file:
+            for line in help_file:
+                print(line)
+        return
 
     def satchel_action(self):
         usewhat = self.action.upper().strip().replace("USE ","")
