@@ -10,32 +10,34 @@ class GameEngine(object):
         self.action = ' '
         self.location_description = ''
         self.enemy = None
-        self.items = [("Rusty Knife", 1, 5)]
+        self.items = [("Rusty Knife", 0, 5)]
         self.exititemx = random.randint(0,17)
         self.exititemy = random.randint(0,17)
         self.playerhitpoints = 50
     
     def main_loop(self):
+        clearscreen = True
+        
         while self.action != 'QUIT':
-            os.system('cls' if os.name == 'nt' else 'clear')
-            self.read_location()
+            if clearscreen: 
+                os.system('cls' if os.name == 'nt' else 'clear')
+                self.read_location()
             
-            print(self.location_description)
+                print(self.location_description)
             
-            self.generate_enemy()
+                self.generate_enemy()
             
-            if self.enemy != None:
-                print("You have encountered a {0}.\n\n".format(self.enemy[0]))
-                print("{0}\n".format(self.enemy[3]))
+                if self.enemy != None:
+                    print("You have encountered a {0}.\n\n".format(self.enemy[0]))
+                    print("{0}\n".format(self.enemy[3]))
             
-            print("\n")
+                print("\n")
             
             print("What do you want to do? ")
             self.action = raw_input()
             
             self.action = self.action.strip().upper()
-            self.process_action()
-
+            clearscreen = not self.process_action()
 
     def read_location(self):
         with open("map.txt", "r") as themap:
@@ -71,16 +73,19 @@ class GameEngine(object):
         
         if "GO " in self.action:
             self.navigate()
+            return False
             
         elif "SEARCH" in self.action:
             self.search_area()
+            return False
         
         elif "USE " in self.action:
-            self.satchel_action()
+            return self.satchel_action()
         
         else:
             print("I'm confused. Do what now?")
             raw_input("\nPress Enter to continue.")
+            return 
  
     def navigate(self):
         if "EAST" in self.action:
@@ -169,7 +174,50 @@ class GameEngine(object):
     def satchel_action(self):
         usewhat = self.action.upper().strip().replace("USE ","")
         
-        
+        for name,target,points in self.items:
+            if name.upper() != usewhat:
+                print("Ummm.... where is that? Did I lose it?")
+                raw_input("\nPress Enter to continue.")
+                
+                return False
+            else:
+                if self.enemy != None and target == 0:
+                    enemy, enemyhp, enemydeals, enemydesc = self.enemy
+                    
+                    print("I used the weapon and did {0}/{1} points of damage. \n ".format(points, enemyhp))
+                    print("But he did {0}/{1} to me too. \n".format(enemydeals, self.playerhitpoints))
+                    enemyhp -= points
+                    self.playerhitpoints -= enemydeals
+                    
+                    self.enemy = (enemy, enemyhp, enemydeals, enemydesc)
+                    
+                    return True
+                    
+                elif target == 1:
+                    if self.playerhitpoints + points > 50:
+                        self.playerhitpoints = 50
+                    else:
+                        self.playerhitpoints += points
+                        
+                    self.items.remove((name, target, points))
+                    
+                    print("Healed some of my damage.")
+                    raw_input("Press Enter to continue.\n")
+                    if self.enemy != None:
+                        return True
+                    else:
+                        return False
+
+                elif target == -1:
+                    print("Ummm... Do you see a store? Maybe in the next town.")
+                    raw_input("\nPress Enter to continue.")
+                    return False
+                
+                elif target == -2:
+                    if self.locationx == 8 and self.locationy == 0:
+                        print("The Wand of Solomon glows and the briars have opened the road. You can finally leave!!")
+                    
+                    
         
         return
     
