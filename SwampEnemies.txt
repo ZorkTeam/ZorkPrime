@@ -1,14 +1,14 @@
 [1]
-Small Aligator
+Small Alligator
 15
 5
-A small aligator stands before you. Hidden under the water, it takes you by surprise and quickly lunges towards you.
+A small alligator stands before you. Hidden under the water, it takes you by surprise and quickly lunges towards you.
 
 [2]
-Large Aligator
+Large Alligator
 25
 10
-A large aligator stands before you. Hidden under the water, ittakes you by surprise and quickly lunges towards you.
+A large alligator stands before you. Hidden under the water, it takes you by surprise and quickly lunges towards you.
 
 [3]
 Leper
