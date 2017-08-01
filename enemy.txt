@@ -21,3 +21,9 @@ Orc
 40
 20
 A large hulking orc stands before you. His teeth look sharp and protrude from his mouth. He wields a large battle axe. 
+
+[5]
+Slave
+20
+5
+A human slave. He looks weak and starving, and wields a dirty and warn pitchfork.
