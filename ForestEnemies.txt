@@ -15,7 +15,7 @@ A pack of wolves begin to surround you. They aren't large and are clearly diseas
 Ogre
 60
 10
-A massive and stupid ogre stands before you. He appears feathered, but on closer look he has covered himself only in dead leaves and mud, wielding an entire tree he swings clumsily. 
+A massive and stupid ogre stands before you. He appears feathered, but upon a closer look he has covered himself only in dead leaves and mud, wielding an entire tree he swings clumsily. 
 
 [4]
 Goblin

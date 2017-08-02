@@ -1,6 +1,9 @@
 -- HELP --
 
 quit:                           Quits the game
+save:                           Saves current progress
+load:                           Loads the saved game
+
 go [north/south/east/west]:     Go in the direction specified
 search:                         Search the area
 use [item]:                     Use the specified item

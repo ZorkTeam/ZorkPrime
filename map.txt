@@ -1,59 +1,59 @@
 [0,0]
-Before you lies a large field of grain. It looks a little like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north and west is an unpassable briar patch. To the south and east is more of the cornfield.
+Before you lies a large field of grain. It looks a little like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north and west is an impassible briar patch. To the south and east is more of the cornfield.
 
 [1,0] 
-Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north is more of the unpassable briars. In all the other directions, there is still more cornfield.
+Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north is more of the impassible briars. In all the other directions, there is still more cornfield.
 
 [2,0]
-Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north is more of the unpassable briars. In all the other directions, there is still more cornfield.
+Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north is more of the impassible briars. In all the other directions, there is still more cornfield.
 
 [3,0]
-Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north is more of the unpassable briars. In all the other directions, there is still more cornfield.
+Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north is more of the impassible briars. In all the other directions, there is still more cornfield.
 
 [4,0]
-Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north is more of the unpassable briars. In all the other directions, there is still more cornfield.
+Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north is more of the impassible briars. In all the other directions, there is still more cornfield.
 
 [5,0]
-Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north is more of the unpassable briars. In all the other directions, there is still more cornfield.
+Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north is more of the impassible briars. In all the other directions, there is still more cornfield.
 
 [6,0]
-Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north is more of the unpassable briars. In all the other directions, there is still more cornfield.
+Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north is more of the impassible briars. In all the other directions, there is still more cornfield.
 
 [7,0]
-Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north is more of the unpassable briars. To the west, there appears to be a break in the field. In all the other directions, there is still more cornfield.
+Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north is more of the impassible briars. To the west, there appears to be a break in the field. In all the other directions, there is still more cornfield.
 
 [8,0]
 Before you lies another section of the field of grain. In the middle of the area is a road leading from the north heading south. The northbound part of the road seems to have been grown over by the thick briars. In all the other directions, there is still more cornfield.
 
 [9,0]
-Before you lies the outskirts of what looks like a deep forest. In this area the trees seem to be young saplings of different species. Oak, some pine, and maple. There is nothing apparent to you that would be of interest. To the north is more of the unpassable briars seeming to make their way through the trees. To the west is a road leading south. To the south, more of the outskirts of the forest. To the east, the woods get thicker and older.
+Before you lies the outskirts of what looks like a deep forest. In this area the trees seem to be young saplings of different species. Oak, some pine, and maple. There is nothing apparent to you that would be of interest. To the north is more of the impassible briars seeming to make their way through the trees. To the west is a road leading south. To the south, more of the outskirts of the forest. To the east, the woods get thicker and older.
 
 [10,0]
-Before you lies a deep forest. In this area the trees seem to be older saplings of different species. Oak, some pine, and maple. the trunks seem to be about a foot in diameter. There is nothing apparent to you that would be of interest. To the north is more of the unpassable briars seeming to make their way through the trees. To the west is a thinner section of the forest. To the south, more of the outskirts of the forest. To the east, the woods get thicker and older, accompanied with a faint smell of smoke...
+Before you lies a deep forest. In this area the trees seem to be older saplings of different species. Oak, some pine, and maple. the trunks seem to be about a foot in diameter. There is nothing apparent to you that would be of interest. To the north is more of the impassible briars seeming to make their way through the trees. To the west is a thinner section of the forest. To the south, more of the outskirts of the forest. To the east, the woods get thicker and older, accompanied with a faint smell of smoke...
 
 [11,0]
-Before you lies a deep forest. In this area the trees seem to be old. Oak, some pine, and maple. the trunks seem to be about a foot and more in diameter. There is nothing apparent to you that would be of interest. To the north is more of the unpassable briars seeming to make their way through the trees. To the west is a thinner section of the forest. To the south the forest seems to just get deeper. To the east, the woods get thinner and older, as well as a faint smell of smoke lingering in the air.
+Before you lies a deep forest. In this area the trees seem to be old. Oak, some pine, and maple. the trunks seem to be about a foot and more in diameter. There is nothing apparent to you that would be of interest. To the north is more of the impassible briars seeming to make their way through the trees. To the west is a thinner section of the forest. To the south the forest seems to just get deeper. To the east, the woods get thinner and older, as well as a faint smell of smoke lingering in the air.
 
 [12,0]
-Before you lies a thin forest. In this area there seems to be a small cave hidden behind some trees, dark and forboding smoke comes from its mouth. Around are large boulders among the thin, tall trees. There is nothing apparent to you that would be of interest. To the north is a large, unpassable cliff wall. To the west is a thicker portion of the forest. To the east the thin, craggy, and decrepit forest continues. To the south, lies more thin forest.
+Before you lies a thin forest. In this area there seems to be a small cave hidden behind some trees, dark and foreboding smoke comes from its mouth. Around are large boulders among the thin, tall trees. There is nothing apparent to you that would be of interest. To the north is a large, impassible cliff wall. To the west is a thicker portion of the forest. To the east the thin, craggy, and decrepit forest continues. To the south, lies more thin forest.
 
 [13,0]
 Before you lies a thin forest. In this area, there are many boulders with thin and expansive pine trees sprouting among them. There is nothing apparent to you that would be of interest. To the north lies a large, impassable cliff wall. To the west continue the thin forest, with a faint smell of smoke. To the east the thin, craggy, and decrepit forest continues.  To the south lies more thin forest.
 
 [14,0]
-Before you lies a thin forest. In this area, there are many boulders with thin and expansive pine trees sprouting among them. There is nothing apparent to you that would be of interest. To the north lies a large, unpassable cliff wall. To the west the thin, craggy forest continues. To the east lies the walls of a large decrepit and abandoned shack. To the south lies more thin forest.
+Before you lies a thin forest. In this area, there are many boulders with thin and expansive pine trees sprouting among them. There is nothing apparent to you that would be of interest. To the north lies a large, impassible cliff wall. To the west the thin, craggy forest continues. To the east lies the walls of a large decrepit and abandoned shack. To the south lies more thin forest.
 
 [15,0]
 Before you lies a seemingly abandoned shack, a utility shed of some sort. Perhaps it is worth investigating. To the north lies a large, impassable cliff wall. Seems every other direction you go takes you to a thin, craggy forest.
 
 [16,0]
-Before you lies a thin, expansive, and bouldered forest. There is nothing apparent to you that would be of interest.  To the north is a large, unpassable cliff wall, with the begining of a large mountain to the east. To the west, there lies the walls of a large decrepit and abandoned shack. To the south lies more thin forest.
+Before you lies a thin, expansive, and bouldered forest. There is nothing apparent to you that would be of interest.  To the north is a large, impassible cliff wall, with the beginning of a large mountain to the east. To the west, there lies the walls of a large decrepit and abandoned shack. To the south lies more thin forest.
 
 [17,0]
-Before you lies an enormous mountain, lush with wildflowers, tall pines, and snow-covered mountain top, and a thunderous waterfall. There is nothing apparent to you that would be of interest. To both your north and east are large, unpassable cliff walls. To the west and south - a thin, craggy forest.
+Before you lies an enormous mountain, lush with wildflowers, tall pines, and snow-covered mountain top, and a thunderous waterfall. There is nothing apparent to you that would be of interest. To both your north and east are large, impassible cliff walls. To the west and south - a thin, craggy forest.
 
 [0,1]
-Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the west, there are large, unpassable briars. In all other directions, there is more desolate cornfield.
+Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the west, there are large, impassible briars. In all other directions, there is more desolate cornfield.
 
 [1,1]
 Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. In all directions, there is more desolate cornfield.
@@ -80,7 +80,7 @@ Before you lies another section of the field of grain. It looks like rows of poo
 Before you lies a gap between the corn fields (Eastward) and a forest (Westward). There is a road the leads both North and South. The North direction appears as though the road leads to more fields, while southward appears to lead to a town off in the distance.
 
 [9,1]
-Before you lies the outskirts of what looks like a deep forest. In this area the trees seem to be young saplings of different species. Oak, some pine, and maple. There is nothing apparent to you that would be of interest. To the north is more of the unpassable briars seeming to make their way through the trees. To the west is a road leading south. To the south, more of the outskirts of the forest. To the east, the woods get thicker and older.
+Before you lies the outskirts of what looks like a deep forest. In this area the trees seem to be young saplings of different species. Oak, some pine, and maple. There is nothing apparent to you that would be of interest. To the north is more of the impassible briars seeming to make their way through the trees. To the west is a road leading south. To the south, more of the outskirts of the forest. To the east, the woods get thicker and older.
 
 [10,1]
 Before you lies a deep forest. In this area the trees seem to be older saplings of different species. Oak, some pine, and maple. the trunks seem to be about a foot in diameter. There is nothing apparent to you that would be of interest. To the north, west, and south is more of the outskirts of the forest. To the east, the woods get thicker and older.
@@ -101,13 +101,13 @@ Before you lies a thin, expansive, and bouldered forest. The smell of fresh pine
 Before you lies a thin, expansive, and bouldered forest. There is nothing apparent to you that would be of interest. The smell of fresh pine fills the air, with sounds of water roaring in the distance. To the north you spot a large and abandoned looking shack, while in all other directions is just more of the thin, rocky woods.
 
 [16,1]
-Before you lies a thin, expansive, and bouldered forest. The smell of fresh pine fills the air, with sounds of water roaring in the distance.There is nothing apparent to you that would be of interest. All directions seem to lead into more of the thin, and mountanous woods.
+Before you lies a thin, expansive, and bouldered forest. The smell of fresh pine fills the air, with sounds of water roaring in the distance.There is nothing apparent to you that would be of interest. All directions seem to lead into more of the thin, and mountainous woods.
 
 [17,1]
-Before you lies a thin, expansive, and bouldered forest. There is nothing apparent to you that would be of interest. To the north you can see the base of a large mountain and the sound of running water is most intesnse, while to the east is a large, unpassable cliff wall. South and west lead you into more thin and craggy woods.
+Before you lies a thin, expansive, and bouldered forest. There is nothing apparent to you that would be of interest. To the north you can see the base of a large mountain and the sound of running water is most intense, while to the east is a large, impassable cliff wall. South and west lead you into more thin and craggy woods.
 
 [0,2]
-Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the west is a patch of unpassable, overgrown briars. In all other directions, there is more desolate cornfield.
+Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the west is a patch of impassable, overgrown briars. In all other directions, there is more desolate cornfield.
 
 [1,2]
 Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. In all directions, there is more desolate cornfield.
@@ -131,10 +131,10 @@ Before you lies another section of the field of grain. It looks like rows of poo
 Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the south appears to be an abandoned village, while all other directions lead to more desolate cornfield.
 
 [8,2]
-Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the east, there appears to be the begining of a dense forest. In all other directions, there is only more desolate cornfield.
+Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the east, there appears to be the beginning of a dense forest. In all other directions, there is only more desolate cornfield.
 
 [9,2]
-Before you lies a deep forest. In this area the trees seem to be old. Oak, some pine, and maple. the trunks seem to be about a foot and more in diameter. There is nothing apparent to you that would be of interest. To the south and west, there appears to be the begining of desolate, abandoned cornfield. To the north and east, the deep forest continues and grows older.
+Before you lies a deep forest. In this area the trees seem to be old. Oak, some pine, and maple. the trunks seem to be about a foot and more in diameter. There is nothing apparent to you that would be of interest. To the south and west, there appears to be the beginning of desolate, abandoned cornfield. To the north and east, the deep forest continues and grows older.
 
 [10,2]
 Before you lies a deep forest. In this area the trees seem to be old. Oak, some pine, and maple. the trunks seem to be about a foot and more in diameter. There is nothing apparent to you that would be of interest. In all directions, there is only deep forest that you can see.
@@ -143,7 +143,7 @@ Before you lies a deep forest. In this area the trees seem to be old. Oak, some 
 Before you lies a deep forest. In this area the trees seem to be old. Oak, some pine, and maple. the trunks seem to be about a foot and more in diameter. There is nothing apparent to you that would be of interest. To the east, the forest appears to begin to thin out, with rocks and boulders littering the path. In all other directions, the deep forest continues.
 
 [12,2]
-Before you lies a thin, expansive, and bouldered forest. There is nothing apparent to you that would be of interest. The smell of fresh pine fills the air, with sounds of water roaring in the distance. To the west, the forest gets depper and more crowded. In all other directions there seems to be only more of the thin, craggy woods. Yet to the north, there is a very faint smell of smoke...
+Before you lies a thin, expansive, and bouldered forest. There is nothing apparent to you that would be of interest. The smell of fresh pine fills the air, with sounds of water roaring in the distance. To the west, the forest gets deeper and more crowded. In all other directions there seems to be only more of the thin, craggy woods. Yet to the north, there is a very faint smell of smoke...
 
 [13,2]
 Before you lies a thin, expansive, and bouldered forest. There is nothing apparent to you that would be of interest. The smell of fresh pine fills the air, with sounds of water roaring in the distance. In all other directions there seems to be only more of the thin, craggy woods.
@@ -161,7 +161,7 @@ Before you lies a thin, expansive, and bouldered forest. There is nothing appare
 Before you lies a thin, expansive, and bouldered forest. There is nothing apparent to you that would be of interest. The smell of fresh pine fills the air, with sounds of water roaring in the distance. To the east is an impassable cliff wall.
 
 [0,3]
-Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the west are treacherous, unpassable briars. In all the other directions there is still more cornfield.
+Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the west are treacherous, impassible briars. In all the other directions there is still more cornfield.
 
 [1,3]
 Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. In all directions there is still more cornfield.
@@ -176,19 +176,19 @@ Before you lies another section of the field of grain. It looks like rows of poo
 Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. In all directions there is still more cornfield.
 
 [5,3]
-Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north is more of the unpassable briars. To the east are signs of an abandoned village. In all the other directions there is still more cornfield.
+Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the north is more of the impassible briars. To the east are signs of an abandoned village. In all the other directions there is still more cornfield.
 
 [6,3]
 Before you lies an abandoned village. The homes are left intact, as though the residents vanished without a trace. You see a dirty, simple town market, full of rotting foods and meats. Despite the town being in good shape, it is clear something terrible happened here. The town only continues to the south and east, while to the north and west are expansive and poorly maintained cornfield.
 
 [7,3]
-Before you lies an abandoned village. The homes are left intact, as though the residents vanished without a trace. You see pins where the kept their livestock. At first glance they all seemed to die of starvation, but you see some still writhing on the ground, shambling and silent. Maybe you should go... To the west and south, the village only continues. To the north and east are expansive and poorly mantained cornfield.
+Before you lies an abandoned village. The homes are left intact, as though the residents vanished without a trace. You see pins where the kept their livestock. At first glance they all seemed to die of starvation, but you see some still writhing on the ground, shambling and silent. Maybe you should go... To the west and south, the village only continues. To the north and east are expansive and poorly maintained cornfield.
 
 [8,3]
 Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the east appears to be the outskirts of a deep and old forest. To the west there are signs of an abandoned village. To the north and south lies only more poorly maintained cornfield.
 
 [9,3]
-Before you lies the outskirts of what looks like a deep forest. In this area the trees seem to be young saplings of different species. Oak, some pine, and maple. There is nothing apparent to you that would be of interest. To the north and east there is only depper forest, to the south continues the forest outskirts. To the west expansive and poorly maintained cornfield.
+Before you lies the outskirts of what looks like a deep forest. In this area the trees seem to be young saplings of different species. Oak, some pine, and maple. There is nothing apparent to you that would be of interest. To the north and east there is only deeper forest, to the south continues the forest outskirts. To the west expansive and poorly maintained cornfield.
 
 [10,3]
 Before you lies a deep forest. In this area the trees seem to be old. Oak, some pine, and maple. the trunks seem to be about a foot and more in diameter. There is nothing apparent to you that would be of interest. To the west lies the outskirts of the forest. In all other directions the forest only grows deeper and older.
@@ -299,7 +299,7 @@ Before you lies another section of the field of grain. It looks like rows of poo
 Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the east appears to be some outskirts to a large forest. In all directions there is still more cornfield.
 
 [10,5]
-Before you lies the outskirts of what looks like a deep forest. In this area the trees seem to be young saplings of different species. Oak, some pine, and maple. There is nothing apparent to you that would be of interest. To the south and west there looks to be poorly maintained cornfield. To the north and east, the forest only grows depper and older. 
+Before you lies the outskirts of what looks like a deep forest. In this area the trees seem to be young saplings of different species. Oak, some pine, and maple. There is nothing apparent to you that would be of interest. To the south and west there looks to be poorly maintained cornfield. To the north and east, the forest only grows deeper and older. 
 
 [11,5]
 Before you lies a deep forest. In this area the trees seem to be old. Oak, some pine, and maple. the trunks seem to be about a foot and more in diameter. There is nothing apparent to you that would be of interest. To the south, there seems to be some forest outskirts opening up. In all other directions the forest only grows deeper and older.
@@ -341,41 +341,41 @@ Before you lies another section of the field of grain. It looks like rows of poo
 Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. In all directions there is still more cornfield.
 
 [6,6]
-Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the south appears to be the begining of a road. In all other directions there is still more cornfield.
+Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the south appears to be the beginning of a road. In all other directions there is still more cornfield.
 
 [7,6]
-Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the south appears to be the begining of lush and green cottonfields. In all other directions there is still more cornfield.
+Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the south appears to be the beginning of lush and green cotton fields. In all other directions there is still more cornfield.
 
 [8,6]
 Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. In all directions there is still more cornfield.
 
 [9,6]
-Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the south appears to be the begining of lush and green cottonfields. In all other directions there is still more cornfield.
+Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the south appears to be the beginning of lush and green cotton fields. In all other directions there is still more cornfield.
 
 [10,6]
-Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the east there appears to be some outskirts to a large forest. To the south appears to be the begining of lush and green cottonfields. In all other directions there is still more cornfield.
+Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the east there appears to be some outskirts to a large forest. To the south appears to be the beginning of lush and green cotton fields. In all other directions there is still more cornfield.
 
 
 [11,6]
-Before you lies the outskirts of a forest. The trees seem snapped and broken, as if large beast came stampeding over them. To the north lies a deep, thick forest full of old pines and animal life. To the west and east lies more outskirts of the forest. To the south appears to be the begining of lush and green cottonfields.
+Before you lies the outskirts of a forest. The trees seem snapped and broken, as if large beast came stampeding over them. To the north lies a deep, thick forest full of old pines and animal life. To the west and east lies more outskirts of the forest. To the south appears to be the beginning of lush and green cotton fields.
 
 [12,6]
-Before you lies the outskirts of a forest. The trees seem snapped and broken, as if large beast came stampeding over them. To the north lies a deep, thick forest full of old pines and animal life. To the west and east lies more outskirts of the forest. To the south appears to be the begining of lush and green cottonfields.
+Before you lies the outskirts of a forest. The trees seem snapped and broken, as if large beast came stampeding over them. To the north lies a deep, thick forest full of old pines and animal life. To the west and east lies more outskirts of the forest. To the south appears to be the beginning of lush and green cotton fields.
 
 [13,6]
-Before you lies the outskirts of a forest. The trees seem snapped and broken, as if large beast came stampeding over them. To the north lies a deep, thick forest full of old pines and animal life. To the west and east lies more outskirts of the forest. To the south appears to be the begining of lush and green cottonfields.
+Before you lies the outskirts of a forest. The trees seem snapped and broken, as if large beast came stampeding over them. To the north lies a deep, thick forest full of old pines and animal life. To the west and east lies more outskirts of the forest. To the south appears to be the beginning of lush and green cotton fields.
 
 [14,6]
-Before you lies the outskirts of a forest. The trees seem snapped and broken, as if large beast came stampeding over them. To the north lies a deep, thick forest full of old pines and animal life. To the west and east lies more outskirts of the forest. To the south appears to be the begining of lush and green cottonfields.
+Before you lies the outskirts of a forest. The trees seem snapped and broken, as if large beast came stampeding over them. To the north lies a deep, thick forest full of old pines and animal life. To the west and east lies more outskirts of the forest. To the south appears to be the beginning of lush and green cotton fields.
 
 [15,6]
-Before you lies the outskirts of a forest. The trees seem snapped and broken, as if large beast came stampeding over them. To the north lies a deep, thick forest full of old pines and animal life. To the west and east lies more outskirts of the forest. To the south appears to be the begining of lush and green cottonfields.
+Before you lies the outskirts of a forest. The trees seem snapped and broken, as if large beast came stampeding over them. To the north lies a deep, thick forest full of old pines and animal life. To the west and east lies more outskirts of the forest. To the south appears to be the beginning of lush and green cotton fields.
 
 [16,6]
-Before you lies the outskirts of a forest. The trees seem snapped and broken, as if large beast came stampeding over them. To the north lies a deep, thick forest full of old pines and animal life. To the west and east lies more outskirts of the forest. To the south appears to be the begining of lush and green cottonfields.
+Before you lies the outskirts of a forest. The trees seem snapped and broken, as if large beast came stampeding over them. To the north lies a deep, thick forest full of old pines and animal life. To the west and east lies more outskirts of the forest. To the south appears to be the beginning of lush and green cotton fields.
 
 [17,6]
-Before you lies the outskirts of a forest. The trees seem snapped and broken, as if large beast came stampeding over them. To the north lies a deep, thick forest full of old pines and animal life. To the west lies more outskirts of the forest. To the south appears to be the begining of lush and green cottonfields. To the east, there appears to be a desert that continues far beyond you can see, surely you aren't equipped to venture there...
+Before you lies the outskirts of a forest. The trees seem snapped and broken, as if large beast came stampeding over them. To the north lies a deep, thick forest full of old pines and animal life. To the west lies more outskirts of the forest. To the south appears to be the beginning of lush and green cotton fields. To the east, there appears to be a desert that continues far beyond you can see, surely you aren't equipped to venture there...
 
 [0,7]
 Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the west there appears to be treacherous and impassable briars. In all other directions there is still more cornfield.
@@ -396,40 +396,40 @@ Before you lies another section of the field of grain. It looks like rows of poo
 Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the east you see what appears to be a road. In all other directions there is still more cornfield.
 
 [6,7]
-Before you lies the end of a long road heading southwards. To the south, the road only continues. To the west and north appears to be desolate fields of grain. To the east there is a more lively yet still abandoned cottonfield. 
+Before you lies the end of a long road heading southwards. To the south, the road only continues. To the west and north appears to be desolate fields of grain. To the east there is a more lively yet still abandoned cotton field. 
 
 [7,7]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the west, there appears to be the begining of a road. To the north there appears to be desolate and unmaintained cornfield. To the south and east, the lush cottonfields continue.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the west, there appears to be the beginning of a road. To the north there appears to be desolate and unmaintained cornfield. To the south and east, the lush cotton fields continue.
 
 [8,7]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all direcitons the lush cottonfield continues. 
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all directions the lush cotton field continues. 
 
 [9,7]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all direcitons the lush cottonfield continues. 
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all directions the lush cotton field continues. 
 
 [10,7]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all direcitons the lush cottonfield continues. 
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all directions the lush cotton field continues. 
 
 [11,7]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all direcitons the lush cottonfield continues. 
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all directions the lush cotton field continues. 
 
 [12,7]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all direcitons the lush cottonfield continues. 
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all directions the lush cotton field continues. 
 
 [13,7]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all direcitons the lush cottonfield continues. 
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all directions the lush cotton field continues. 
 
 [14,7]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all direcitons the lush cottonfield continues. 
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all directions the lush cotton field continues. 
 
 [15,7]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all direcitons the lush cottonfield continues. 
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all directions the lush cotton field continues. 
 
 [16,7]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all direcitons the lush cottonfield continues. 
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all directions the lush cotton field continues. 
 
 [17,7]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the east, there appears to be a desert that continues far beyond you can see, surely you aren't equipped to venture there... In all other direcitons the lush cottonfield continues. 
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the east, there appears to be a desert that continues far beyond you can see, surely you aren't equipped to venture there... In all other directions the lush cotton field continues. 
 
 [0,8]
 Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the west there appears to be treacherous, impassable briars blocking the way. In all other directions there is still more cornfield.
@@ -450,40 +450,40 @@ Before you lies another section of the field of grain. It looks like rows of poo
 Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. In all directions there is still more cornfield.
 
 [6,8]
-Before you lies a long road heading north and south. To the west appears to be desolate fields of grain. To the east there is a more lively yet still abandoned cottonfield.  
+Before you lies a long road heading north and south. To the west appears to be desolate fields of grain. To the east there is a more lively yet still abandoned cotton field.  
 
 [7,8]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the west there appears to be signs of a road. In all other direcitons the lush cottonfield continues.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the west there appears to be signs of a road. In all other directions the lush cotton field continues.
 
 [8,8]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all direcitons the lush cottonfield continues.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all directions the lush cotton field continues.
 
 [9,8]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all direcitons the lush cottonfield continues.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all directions the lush cotton field continues.
 
 [10,8]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all direcitons the lush cottonfield continues.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all directions the lush cotton field continues.
 
 [11,8]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all direcitons the lush cottonfield continues.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all directions the lush cotton field continues.
 
 [12,8]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all direcitons the lush cottonfield continues.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all directions the lush cotton field continues.
 
 [13,8]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the south you see what can only be the plantation for this cottonfield. In all other direcitons the lush cottonfield continues.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the south you see what can only be the plantation for this cotton field. In all other directions the lush cotton field continues.
 
 [14,8]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the south you see what can only be the plantation for this cottonfield. In all other direcitons the lush cottonfield continues.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the south you see what can only be the plantation for this cotton field. In all other directions the lush cotton field continues.
 
 [15,8]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all direcitons the lush cottonfield continues.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all directions the lush cotton field continues.
 
 [16,8]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all direcitons the lush cottonfield continues.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all directions the lush cotton field continues.
 
 [17,8]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the east, there appears to be a desert that continues far beyond you can see, surely you aren't equipped to venture there... In all other direcitons the lush cottonfield continues.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the east, there appears to be a desert that continues far beyond you can see, surely you aren't equipped to venture there... In all other directions the lush cotton field continues.
 
 [0,9]
 Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the west there appears to be treacherous, impassable briars blocking the way. In all other directions there is still more cornfield.
@@ -504,40 +504,40 @@ Before you lies another section of the field of grain. It looks like rows of poo
 Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the east there appears to be signs of a road. In all other directions there is still more cornfield.
 
 [6,9]
-Before you lies a long road heading north and south. To the west appears to be desolate fields of grain. To the east there is a more lively yet still abandoned cottonfield. 
+Before you lies a long road heading north and south. To the west appears to be desolate fields of grain. To the east there is a more lively yet still abandoned cotton field. 
 
 [7,9]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the west there appears to be signs of a road. In all other direcitons the lush cottonfield continues.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the west there appears to be signs of a road. In all other directions the lush cotton field continues.
 
 [8,9]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all direcitons the lush cottonfield continues.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all directions the lush cotton field continues.
 
 [9,9]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all direcitons the lush cottonfield continues.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all directions the lush cotton field continues.
 
 [10,9]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all direcitons the lush cottonfield continues.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all directions the lush cotton field continues.
 
 [11,9]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all direcitons the lush cottonfield continues.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all directions the lush cotton field continues.
 
 [12,9]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the east you see what can only be the plantation for these cottonfields. In all other direcitons the lush cottonfield continues.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the east you see what can only be the plantation for these cotton fields. In all other directions the lush cotton field continues.
 
 [13,9]
-Before you lies a massive and prestine plantation house in the middle of the cottonfields. The plantation is covered in faded, white paint and creaks and moans with the wind blowing against it. To the west and south, the plantation continues. In all other directions there is only more lush cottonfield.
+Before you lies a massive and pristine plantation house in the middle of the cotton fields. The plantation is covered in faded, white paint and creaks and moans with the wind blowing against it. To the west and south, the plantation continues. In all other directions there is only more lush cotton field.
 
 [14,9]
-Before you lies a massive and prestine plantation house in the middle of the cottonfields. The plantation is covered in faded, white paint and creaks and moans with the wind blowing against it. To the east and south, the plantation continues. In all other directions there is only more lush cottonfield.
+Before you lies a massive and pristine plantation house in the middle of the cotton fields. The plantation is covered in faded, white paint and creaks and moans with the wind blowing against it. To the east and south, the plantation continues. In all other directions there is only more lush cotton field.
 
 [15,9]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the west you see what can only be the plantation for these cottonfields. In all other direcitons the lush cottonfield continues.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the west you see what can only be the plantation for these cotton fields. In all other directions the lush cotton field continues.
 
 [16,9]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all direcitons the lush cottonfield continues.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all directions the lush cotton field continues.
 
 [17,9]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the east, there appears to be a desert that continues far beyond you can see, surely you aren't equipped to venture there... In all other direcitons the lush cottonfield continues.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the east, there appears to be a desert that continues far beyond you can see, surely you aren't equipped to venture there... In all other directions the lush cotton field continues.
 
 [0,10]
 Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the west there appears to be treacherous, impassable briars blocking the way. In all other directions there is still more cornfield.
@@ -558,97 +558,97 @@ Before you lies another section of the field of grain. It looks like rows of poo
 Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the east there appears to be signs of a road. In all other directions there is still more cornfield.
 
 [6,10]
-Before you lies a long road heading north and south. To the west appears to be desolate fields of grain. To the east there is a more lively yet still abandoned cottonfield. 
+Before you lies a long road heading north and south. To the west appears to be desolate fields of grain. To the east there is a more lively yet still abandoned cotton field. 
 
 [7,10]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the west there appears to be signs of a road. In all direcitons the lush cottonfield continues.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the west there appears to be signs of a road. In all directions the lush cotton field continues.
 
 [8,10]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all direcitons the lush cottonfield continues.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all directions the lush cotton field continues.
 
 [9,10]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all direcitons the lush cottonfield continues.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all directions the lush cotton field continues.
 
 [10,10]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all direcitons the lush cottonfield continues.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all directions the lush cotton field continues.
 
 [11,10]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all direcitons the lush cottonfield continues.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all directions the lush cotton field continues.
 
 [12,10]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the east there appears what can only be the plantation for the cottonfields. In all other direcitons the lush cottonfield continues.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the east there appears what can only be the plantation for the cotton fields. In all other directions the lush cotton field continues.
 
 [13,10]
-Before you lies a massive and prestine plantation house in the middle of the cottonfields. The plantation is covered in faded, white paint and creaks and moans with the wind blowing against it. To the north and east, the plantation continues. In all other directions there is only more lush cottonfield.
+Before you lies a massive and pristine plantation house in the middle of the cotton fields. The plantation is covered in faded, white paint and creaks and moans with the wind blowing against it. To the north and east, the plantation continues. In all other directions there is only more lush cotton field.
 
 [14,10]
-Before you lies a massive and prestine plantation house in the middle of the cottonfields. The plantation is covered in faded, white paint and creaks and moans with the wind blowing against it. To the north and west, the plantation continues. In all other directions there is only more lush cottonfield.
+Before you lies a massive and pristine plantation house in the middle of the cotton fields. The plantation is covered in faded, white paint and creaks and moans with the wind blowing against it. To the north and west, the plantation continues. In all other directions there is only more lush cotton field.
 
 [15,10]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the west there appears what can only be the planation for the cottonfields. In all direcitons the lush cottonfield continues.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the west there appears what can only be the plantation for the cotton fields. In all directions the lush cotton field continues.
 
 [16,10]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all direcitons the lush cottonfield continues.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. In all directions the lush cotton field continues.
 
 [17,10]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the east, there appears to be a desert that continues far beyond you can see, surely you aren't equipped to venture there... In all other direcitons the lush cottonfield continues.
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the east, there appears to be a desert that continues far beyond you can see, surely you aren't equipped to venture there... In all other directions the lush cotton field continues.
 
 [0,11]
-Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the west there appears to be treacherous, impassable briars blocking the way. To the south you find hints of a rancid smell, and see what appears to be signs of a sawmp. In all other directions there is still more cornfield.
+Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the west there appears to be treacherous, impassable briars blocking the way. To the south you find hints of a rancid smell, and see what appears to be signs of a swamp. In all other directions there is still more cornfield.
 
 [1,11]
-Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the south you find hints of a rancid smell, and see what appears to be signs of a sawmp. In all other directions there is still more cornfield.
+Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the south you find hints of a rancid smell, and see what appears to be signs of a swamp. In all other directions there is still more cornfield.
 
 [2,11]
-Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the south you find hints of a rancid smell, and see what appears to be signs of a sawmp. In all other directions there is still more cornfield.
+Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the south you find hints of a rancid smell, and see what appears to be signs of a swamp. In all other directions there is still more cornfield.
 
 [3,11]
-Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the south you find hints of a rancid smell, and see what appears to be signs of a sawmp. In all other directions there is still more cornfield.
+Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the south you find hints of a rancid smell, and see what appears to be signs of a swamp. In all other directions there is still more cornfield.
 
 [4,11]
-Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the south you find hints of a rancid smell, and see what appears to be signs of a sawmp. In all other directions there is still more cornfield.
+Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the south you find hints of a rancid smell, and see what appears to be signs of a swamp. In all other directions there is still more cornfield.
 
 [5,11]
-Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the east there appears to be signs of a road. To the south you find hints of a rancid smell, and see what appears to be signs of a sawmp. In all other directions there is still more cornfield.
+Before you lies another section of the field of grain. It looks like rows of poorly maintained cornfield. There is nothing apparent to you that would be of interest. To the east there appears to be signs of a road. To the south you find hints of a rancid smell, and see what appears to be signs of a swamp. In all other directions there is still more cornfield.
 
 [6,11]
-Before you lies a long road heading north and south.  To the west appears to be desolate fields of grain. To the east there is a more lively yet still abandoned cottonfield. 
+Before you lies a long road heading north and south.  To the west appears to be desolate fields of grain. To the east there is a more lively yet still abandoned cotton field. 
 
 [7,11]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the west there appears to be signs of a road. To the south there are outskirts to a lively forest. In all other direcitons the lush cottonfield continues. 
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the west there appears to be signs of a road. To the south there are outskirts to a lively forest. In all other directions the lush cotton field continues. 
 
 [8,11]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the south there are outskirts to a lively forest. In all other direcitons the lush cottonfield continues. 
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the south there are outskirts to a lively forest. In all other directions the lush cotton field continues. 
 
 [9,11]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the south there are outskirts to a lively forest. In all other direcitons the lush cottonfield continues. 
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the south there are outskirts to a lively forest. In all other directions the lush cotton field continues. 
 
 [10,11]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the south there are outskirts to a lively forest. In all other direcitons the lush cottonfield continues. 
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the south there are outskirts to a lively forest. In all other directions the lush cotton field continues. 
 
 [11,11]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the south there are outskirts to a lively forest. In all other direcitons the lush cottonfield continues. 
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the south there are outskirts to a lively forest. In all other directions the lush cotton field continues. 
 
 [12,11]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the south there are outskirts to a lively forest. In all other direcitons the lush cottonfield continues. 
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the south there are outskirts to a lively forest. In all other directions the lush cotton field continues. 
 
 [13,11]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the south there are outskirts to a lively forest. To the north there can only be what appears to be the plantation for these cottonfields. In all other direcitons the lush cottonfield continues. 
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the south there are outskirts to a lively forest. To the north there can only be what appears to be the plantation for these cotton fields. In all other directions the lush cotton field continues. 
 
 [14,11]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the south there are outskirts to a lively forest. To the north there can only be what appears to be the plantation for these cottonfields. In all other direcitons the lush cottonfield continues. 
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the south there are outskirts to a lively forest. To the north there can only be what appears to be the plantation for these cotton fields. In all other directions the lush cotton field continues. 
 
 [15,11]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the south there are outskirts to a lively forest. In all other direcitons the lush cottonfield continues. 
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the south there are outskirts to a lively forest. In all other directions the lush cotton field continues. 
 
 [16,11]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the south there are outskirts to a lively forest. In all other direcitons the lush cottonfield continues. 
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the south there are outskirts to a lively forest. In all other directions the lush cotton field continues. 
 
 [17,11]
-Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the south there are outskirts to a lively forest. To the east, there appears to be a desert that continues far beyond you can see, surely you aren't equipped to venture there... In all other direcitons the lush cottonfield continues. 
+Before you lies some strangely lively cotton field, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the south there are outskirts to a lively forest. To the east, there appears to be a desert that continues far beyond you can see, surely you aren't equipped to venture there... In all other directions the lush cotton field continues. 
 
 [0,12]
-Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. To the south and east the swamp seems to only continue and get more digusting. To the north there appears to be only desolate cornfield. To the west there are unmistakable tracks of large reptiles - you don't want to wrestle an angry alligator, do you? 
+Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. To the south and east the swamp seems to only continue and get more disgusting. To the north there appears to be only desolate cornfield. To the west there are unmistakable tracks of large reptiles - you don't want to wrestle an angry alligator, do you? 
 
 [1,12]
 Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. To the north appears to be desolate cornfield. In all other directions the swamp only gets deeper and more pungent.
@@ -930,10 +930,10 @@ Before you lies a vast and clearly untouched swamp. The smell burns your eyes an
 Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. You see the unmistakable tracks of large reptiles to the south. It would be inadvisable to travel in that direction. To the north, east, and west, there is only more swamp. There is nothing apparent here that would be of interest.
 
 [4,17]
-Before you lies the edge of the swamp outside the house. The ground is ankle-deep in water. Why anyone would ever want to build a house near here is a maystery to you. To the south, you hear some odd sounds that you decide you want to avoid. To the north and west, there is more swamp. You can still see the house in the east from here.
+Before you lies the edge of the swamp. The ground is ankle-deep in water. Why anyone would ever want to build a house near here is a mystery to you. To the south, you hear some odd sounds that you decide you want to avoid. To the north and west, there is more swamp. You can still see the house in the east from here.
 
 [5,17]
-Before you lies the beginnng of a road heading north. To the south is the tunnel that you came out of on your journey north. You just avoided its collapse and lost all of your gear but your father's old RUSTY KNIFE. To the east, you can see a swamp. To west, what looks like a structure in the distance.
+Before you to the east lies the beginning of a road heading north. To the south is the tunnel that you came out of on your journey north. You just avoided its collapse and lost all of your gear but your father's old RUSTY KNIFE. To the east in the distance, you can see a forest. There is an abandoned house here, on the edge of a swamp that continues to the west.
 
 [6,17]
 Before you lies the beginning of a road heading north. To the south, there is a dense forest. It appears too dangerous to continue in that direction. To the east, the forest looks more hospitable. Across the road, you can see a house to the west. There is nothing apparent here that would be of interest.

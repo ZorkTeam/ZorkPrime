@@ -2,6 +2,7 @@ from __future__ import print_function
 import os
 import random
 import time
+import shelve
 
 
 class GameEngine(object):
@@ -17,7 +18,33 @@ class GameEngine(object):
         self.playerhitpoints = 100
         #18x18 grid of whether a player has searched or killed an enemy in an area
         self.grid_events = [[[False, False]] * 18 for i in range(18)]
-    
+
+    def save(self):
+        s = shelve.open('zork_save.db')
+        s['save'] = {'locationx': self.locationx, 'locationy': self.locationy, 'enemy': self.enemy, 'items': self.items, 'exititemx': self.exititemx, 'exititemy': self.exititemy, 'hp': self.playerhitpoints, 'gridevents': self.grid_events}
+        s.close()
+        print('Progress saved.')
+        raw_input('Press Enter to continue')
+
+    def load(self):
+        print('Loading game...\n')
+        raw_input('Press Enter to continue')
+        s = shelve.open('zork_save.db')
+        if s:
+            d = s['save']
+            self.locationx = d['locationx']
+            self.locationy = d['locationy']
+            # self.read_location()
+            self.enemy = d['enemy']
+            self.items = d['items']
+            self.exititemx = d['exititemx']
+            self.exititemy = d['exititemy']
+            self.playerhitpoints = d['hp']
+            self.grid_events = d['gridevents']
+        else:
+            print('There is no saved game to load!')
+            raw_input('Press Enter to continue')
+
     def main_loop(self):
         clearscreen = True
         
@@ -141,6 +168,14 @@ class GameEngine(object):
 
         elif "ESCAPE " in self.action:
             self.escape()
+            return False
+
+        elif "SAVE" in self.action:
+            self.save()
+            return False
+
+        elif "LOAD" in self.action:
+            self.load()
             return False
         
         else:
