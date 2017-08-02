@@ -245,11 +245,12 @@ class GameEngine(object):
             
             if self.enemy != None and target == 0:
                 enemy, enemyhp, enemydeals, enemydesc = self.enemy
-                
-                print("I used the weapon and did {0} out of {1} points of damage. \n ".format(points, enemyhp))
-                print("But he did {0} out of {1} to me too. \n".format(enemydeals, self.playerhitpoints))
-                enemyhp -= points
-                self.playerhitpoints -= enemydeals
+                player_damage = (points / 2) + random.randint(1, (points / 2))
+                enemy_damage = random.randint(1, enemydeals)
+                print("I used the weapon and did {0} out of {1} points of damage. \n ".format(player_damage, enemyhp))
+                print("But he did {0} out of {1} to me too. \n".format(enemy_damage, self.playerhitpoints))
+                enemyhp -= player_damage
+                self.playerhitpoints -= enemy_damage
                 
                 if enemyhp <= 0:
                     print("\n I defeated the {0}.".format(enemy))
