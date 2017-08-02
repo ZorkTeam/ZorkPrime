@@ -262,8 +262,8 @@ class GameEngine(object):
                 return True
                 
             elif target == 1:
-                if self.playerhitpoints + points > 50:
-                    self.playerhitpoints = 50
+                if self.playerhitpoints + points > 100:
+                    self.playerhitpoints = 100
                 else:
                     self.playerhitpoints += points
                     
