@@ -5,4 +5,4 @@ go [north/south/east/west]:     Go in the direction specified
 search:                         Search the area
 use [item]:                     Use the specified item
 satchel:                        Shows list of items currently carried in satchel
-escape:                         Escapes from an enemy encounter
+escape [north/south/east/west]: Escapes from an enemy encounter
