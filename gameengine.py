@@ -111,8 +111,7 @@ class GameEngine(object):
             return  ## Nothing to do
         
         if "GO " in self.action:
-            self.navigate()
-            return False
+            return self.navigate()
             
         elif "SEARCH" in self.action:
             self.search_area()
@@ -140,9 +139,8 @@ class GameEngine(object):
  
     def navigate(self):
         if self.enemy:
-            print("There is an enemy here! I can't just leave!")
-            raw_input("Press Enter to continue.")
-            return
+            print("There is an enemy here! I can't just leave!\n")
+            return True
 
         if "EAST" in self.action:
             self.locationx += 1
@@ -178,6 +176,8 @@ class GameEngine(object):
         else:
             print("Go where? I don't think so. Sober up!")
             raw_input("\nPress Enter to continue.")
+        
+        return False
         
     def search_area(self):
         print("Searching the area...")
@@ -348,7 +348,7 @@ class GameEngine(object):
             if escape_will_damage:
                 escape_damage = self.enemy[2] * 0.4
                 self.playerhitpoints -= escape_damage
-                print('You took ' + str(escape_damage) + ' damage escaping from ' + self.enemy[0])
+                print('You took {0} damage escaping from {1}'.format(escape_damage, self.enemy[0]))
                 raw_input('\nPress Enter to continue.')
             else:
                 print('You managed to sneak away from the enemy without being noticed!')
