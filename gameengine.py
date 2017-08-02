@@ -25,7 +25,7 @@ class GameEngine(object):
             
                 print(self.location_description)
             
-                self.generate_enemy()
+                self.enemy_manager()
             
                 if self.enemy != None:
                     print("You have encountered a {0}.\n\n".format(self.enemy[0]))
@@ -72,7 +72,7 @@ class GameEngine(object):
                     self.location_description = themap.next()
                     break
 
-    def generate_enemy(self):
+    def enemy_manager(self):
         possible = random.randint(1,10)
         if (possible not in [2,5,10] or 
             (self.locationx == 5 and self.locationy == 17) or
@@ -81,68 +81,29 @@ class GameEngine(object):
             self.enemy = None
             self.enemy_description = ''
             return 
-
         else:
             if self.locationx in range(0,9) and self.locationy in range(0, 12):
-                which = random.randint(1,4)
-                with open("CornfieldEnemies.txt", "r") as enemies:
-                    for line in enemies:
-                        if line == "[{0}]\n".format(which):
-                            name = enemies.next().strip()
-                            hitpoints = int(enemies.next())
-                            deals = int(enemies.next())
-                            description = enemies.next()
-                            
-                            self.enemy = name, hitpoints, deals, description
-                            break
+                self.enemy = self.generate_enemy("CornfieldEnemies.txt")
             elif self.locationx in range(9,18) and self.locationy in range(0, 7):
-                which = random.randint(1,6)
-                with open("CraggyEnemies.txt", "r") as enemies:
-                    for line in enemies:
-                        if line == "[{0}]\n".format(which):
-                            name = enemies.next().strip()
-                            hitpoints = int(enemies.next())
-                            deals = int(enemies.next())
-                            description = enemies.next()
-                            
-                            self.enemy = name, hitpoints, deals, description
-                            break
+                self.enemy = self.generate_enemy("CraggyEnemies.txt")       
             elif self.locationx in range(9,18) and self.locationy in range(7, 13):
-                which = random.randint(1,2)
-                with open("PlanationEnemies.txt", "r") as enemies:
-                    for line in enemies:
-                        if line == "[{0}]\n".format(which):
-                            name = enemies.next().strip()
-                            hitpoints = int(enemies.next())
-                            deals = int(enemies.next())
-                            description = enemies.next()
-                            
-                            self.enemy = name, hitpoints, deals, description
-                            break
+                self.enemy = self.generate_enemy("PlantationEnemies.txt")
             elif self.locationx in range(0,6) and self.locationy in range(13, 18):
-                which = random.randint(1,4)
-                with open("SwampEnemies.txt", "r") as enemies:
-                    for line in enemies:
-                        if line == "[{0}]\n".format(which):
-                            name = enemies.next().strip()
-                            hitpoints = int(enemies.next())
-                            deals = int(enemies.next())
-                            description = enemies.next()
-                            
-                            self.enemy = name, hitpoints, deals, description
-                            break
+                self.enemy = self.generate_enemy("SwampEnemies.txt")
             elif self.locationx in range(6,18) and self.locationy in range(13, 18):
-                which = random.randint(1,4)
-                with open("ForestEnemies.txt", "r") as enemies:
-                    for line in enemies:
-                        if line == "[{0}]\n".format(which):
-                            name = enemies.next().strip()
-                            hitpoints = int(enemies.next())
-                            deals = int(enemies.next())
-                            description = enemies.next()
-                            
-                            self.enemy = name, hitpoints, deals, description
-                            break
+                self.enemy = self.generate_enemy("ForestEnemies.txt")
+
+    def generate_enemy(self, enemyfile):
+        with open(enemyfile, "r") as enemies:
+            which = (int)(enemies.readline())
+            for line in enemies:
+                if line == "[{0}]\n".format(which):
+                    name = enemies.next().strip()
+                    hitpoints = int(enemies.next())
+                    deals = int(enemies.next())
+                    description = enemies.next()
+                    
+                    return name, hitpoints, deals, description
 
     def process_action(self):
         if "QUIT" in self.action:
