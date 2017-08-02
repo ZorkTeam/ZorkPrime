@@ -23,8 +23,12 @@ class GameEngine(object):
         s = shelve.open('zork_save.db')
         s['save'] = {'locationx': self.locationx, 'locationy': self.locationy, 'enemy': self.enemy, 'items': self.items, 'exititemx': self.exititemx, 'exititemy': self.exititemy, 'hp': self.playerhitpoints, 'gridevents': self.grid_events}
         s.close()
+        print('Progress saved.')
+        raw_input('Press Enter to continue')
 
     def load(self):
+        print('Loading game...\n')
+        raw_input('Press Enter to continue')
         s = shelve.open('zork_save.db')
         d = s['save']
         self.locationx = d['locationx']
@@ -164,9 +168,11 @@ class GameEngine(object):
 
         elif "SAVE" in self.action:
             self.save()
+            return False
 
         elif "LOAD" in self.action:
             self.load()
+            return False
         
         else:
             print("I'm confused. Do what now?")
