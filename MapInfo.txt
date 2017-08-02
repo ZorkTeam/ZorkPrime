@@ -3,6 +3,14 @@ Landmark + Divison File
 Cornfield Area:
 [0][0] to [8][0]
 [0][0] to [0][11]
+	
+	Landmarks:
+	[6,3] - Abandoned Village Market
+	[7,3] - Abandoned Village Livestock Area
+	[6,4] - Abandoned Village Neighborhood
+	[7,4] - Abandoned Village General Store + Sheriff's office
+
+
 
 if 0 <= x <= 8 and 0<= y <= 11
 
@@ -10,17 +18,31 @@ Craggy Deep Forest Area:
 [9][0] to [17][0]
 [9][0] to [9][6]
 
+	Landmarks:
+	[12, 0] - Smoking Cave
+	[15,0] - Abandoned Shack
+	[17, 0] - Mountain + Waterfall
+
 if 9 <= x <= 17 and 0 <= y <= 6
 
 Plantation Area:
 [9][7] to [17][7]
 [9][12] to [9][12]
 
+	Landmarks:
+	[13, 9] - Plantation
+	[14, 9] - Plantation
+	[13,10] - Plantation
+	[14,10] - Plantation
+
 if 9 <= x <= 17 and 7<= y <=12
 
 Swamp Area:
 [0][13] to [5][13]
 [0][13] to [0][17]
+
+	Landmarks:
+	[5, 17] - Starting Area/Shack
 
 if 0<= x <= 5 and 13 <= y <= 17
 
