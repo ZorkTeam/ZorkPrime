@@ -2,6 +2,7 @@ from __future__ import print_function
 import os
 import random
 import time
+import shelve
 
 
 class GameEngine(object):
@@ -15,7 +16,27 @@ class GameEngine(object):
         self.exititemx = random.randint(0,17)
         self.exititemy = random.randint(0,17)
         self.playerhitpoints = 100
-    
+        #18x18 grid of whether a player has searched or killed an enemy in an area
+        self.grid_events = [[[False, False]] * 18 for i in range(18)]
+
+    def save(self):
+        s = shelve.open('zork_save.db')
+        s['save'] = {'locationx': self.locationx, 'locationy': self.locationy, 'enemy': self.enemy, 'items': self.items, 'exititemx': self.exititemx, 'exititemy': self.exititemy, 'hp': self.playerhitpoints, 'gridevents': self.grid_events}
+        s.close()
+
+    def load(self):
+        s = shelve.open('zork_save.db')
+        d = s['save']
+        self.locationx = d['locationx']
+        self.locationy = d['locationy']
+        # self.read_location()
+        self.enemy = d['enemy']
+        self.items = d['items']
+        self.exititemx = d['exititemx']
+        self.exititemy = d['exititemy']
+        self.playerhitpoints = d['hp']
+        self.grid_events = d['gridevents']
+
     def main_loop(self):
         clearscreen = True
         
@@ -23,10 +44,11 @@ class GameEngine(object):
             if clearscreen: 
                 os.system('cls' if os.name == 'nt' else 'clear')
                 self.read_location()
-            
+                clearscreen = False
                 print(self.location_description)
             
-                self.enemy_manager()
+                if self.enemy == None:
+                    self.enemy_manager()
             
                 if self.enemy != None:
                     print("You have encountered a {0}.\n\n".format(self.enemy[0]))
@@ -42,6 +64,7 @@ class GameEngine(object):
             
             if self.playerhitpoints <= 0:
                 self.exec_deathscene()
+                clearscreen = True
 
     def exec_deathscene(self):
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -61,6 +84,8 @@ class GameEngine(object):
         
         time.sleep(5)
         self.playerhitpoints = 50
+        self.locationx = 5
+        self.locationy = 17
         del self.items [:]
         self.items.append([("Rusty Knife", 0, 5)])
         if haswand:
@@ -75,7 +100,7 @@ class GameEngine(object):
 
     def enemy_manager(self):
         possible = random.randint(1,10)
-        if (possible not in [2,5,10] or 
+        if (possible not in [2,5,10] or self.grid_events[self.locationx][self.locationy][1] == True or
             (self.locationx == 5 and self.locationy == 17) or
             (self.locationx == 8 and self.locationy == 0)):
 
@@ -96,7 +121,7 @@ class GameEngine(object):
 
     def generate_enemy(self, enemyfile):
         with open(enemyfile, "r") as enemies:
-            which = (int)(enemies.readline())
+            which = random.randint(1, (int)(enemies.readline()))
             for line in enemies:
                 if line == "[{0}]\n".format(which):
                     name = enemies.next().strip()
@@ -111,12 +136,16 @@ class GameEngine(object):
             return  ## Nothing to do
         
         if "GO " in self.action:
-            self.navigate()
-            return False
+            return self.navigate()
             
         elif "SEARCH" in self.action:
-            self.search_area()
-            return False
+            if self.grid_events[self.locationx][self.locationy][0] == False:
+                self.search_area()
+                return False
+            else:
+                print("You've already searched this area before...\n")
+                return True
+            
         
         elif "USE " in self.action:
             return self.satchel_action()
@@ -132,6 +161,12 @@ class GameEngine(object):
         elif "ESCAPE " in self.action:
             self.escape()
             return False
+
+        elif "SAVE" in self.action:
+            self.save()
+
+        elif "LOAD" in self.action:
+            self.load()
         
         else:
             print("I'm confused. Do what now?")
@@ -140,9 +175,8 @@ class GameEngine(object):
  
     def navigate(self):
         if self.enemy:
-            print("There is an enemy here! I can't just leave!")
-            raw_input("Press Enter to continue.")
-            return
+            print("There is an enemy here! I can't just leave!\n")
+            return True
 
         if "EAST" in self.action:
             self.locationx += 1
@@ -179,6 +213,8 @@ class GameEngine(object):
             print("Go where? I don't think so. Sober up!")
             raw_input("\nPress Enter to continue.")
         
+        return False
+        
     def search_area(self):
         print("Searching the area...")
         time.sleep(3)
@@ -191,7 +227,13 @@ class GameEngine(object):
             print("\nYou added the " + new_item[0] + " to your satchel.")
         else:
             print("\t\tNothing!")
-            
+
+        if self.enemy != None:
+            enemy_damage = random.randint(0, self.enemy[2])
+            print("While searching, the {2} did {0} out of {1} to me. \n".format(enemy_damage, self.playerhitpoints, self.enemy[0]))
+            self.playerhitpoints -= enemy_damage
+        
+        self.grid_events[self.locationx][self.locationy] = [True, self.grid_events[self.locationx][self.locationy][1]]
         raw_input("\nPress Enter to continue.")
 
     def generate_item(self):
@@ -205,11 +247,11 @@ class GameEngine(object):
         elif item_chance >= 300:
             return ('A bundle of sticks', 0, 1)
         elif item_chance >= 250:
-            return ('Small potion', 1, 5)
+            return ('Small potion', 1, 10)
         elif item_chance >= 200:
-            return ('Medium potion', 1, 10)
+            return ('Medium potion', 1, 25)
         elif item_chance >= 150:
-            return ('Large Potion', 1, 20)
+            return ('Large Potion', 1, 50)
         elif item_chance >= 100:
             return ('Spear', 0, 10)
         elif item_chance >= 80:
@@ -253,26 +295,34 @@ class GameEngine(object):
         else:
             name,target,points = self.items[index]
             
+
             if self.enemy != None and target == 0:
                 enemy, enemyhp, enemydeals, enemydesc = self.enemy
                 player_damage = (points / 2) + random.randint(1, (points / 2))
                 enemy_damage = random.randint(1, enemydeals)
-                print("I used the weapon and did {0} out of {1} points of damage. \n ".format(player_damage, enemyhp))
-                print("But he did {0} out of {1} to me too. \n".format(enemy_damage, self.playerhitpoints))
+                print("I used the {2} and did {0} out of {1} points of damage.".format(player_damage, enemyhp, name))
+                print("\tBut he did {0} out of {1} to me too. \n".format(enemy_damage, self.playerhitpoints))
                 enemyhp -= player_damage
                 self.playerhitpoints -= enemy_damage
                 
                 if enemyhp <= 0:
-                    print("\n I defeated the {0}.".format(enemy))
+                    print("\nI defeated the {0} - this area should be clear now.\n".format(enemy))
+                    self.grid_events[self.locationx][self.locationy] = [self.grid_events[self.locationx][self.locationy][0], True]
                     self.enemy = None
                 
                 else:
                     self.enemy = (enemy, enemyhp, enemydeals, enemydesc)
                 
                 return True
+            elif self.enemy == None and target == 0:
+                print("Uhh, what exactly are you swinging at?\n")
+                return True
                 
             elif target == 1:
-                if self.playerhitpoints + points > 100:
+                if self.playerhitpoints == 100:
+                    print("Your health is already full, you can't drink away your problems!\n")
+                    return True
+                elif self.playerhitpoints + points > 100:
                     self.playerhitpoints = 100
                 else:
                     self.playerhitpoints += points
@@ -343,15 +393,17 @@ class GameEngine(object):
                 print("Go where? I don't think so. Sober up!")
                 raw_input("\nPress Enter to continue.")
 
-            escape_will_damage = random.choice([True, False])
+            escape_will_damage = random.choice([True, False, True])
 
             if escape_will_damage:
-                escape_damage = self.enemy[2] * 0.4
+                escape_damage = (int)(self.enemy[2] * 0.5)
                 self.playerhitpoints -= escape_damage
-                print('You took ' + str(escape_damage) + ' damage escaping from ' + self.enemy[0])
+                print('You took {0} out of {2} damage escaping from {1}'.format(escape_damage, self.enemy[0], self.playerhitpoints))
+                self.enemy = None
                 raw_input('\nPress Enter to continue.')
             else:
                 print('You managed to sneak away from the enemy without being noticed!')
+                self.enemy = None
                 raw_input('\nPress Enter to continue.')
     
     def find_item(self, itemname):
