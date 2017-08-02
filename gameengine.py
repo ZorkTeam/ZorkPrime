@@ -30,16 +30,20 @@ class GameEngine(object):
         print('Loading game...\n')
         raw_input('Press Enter to continue')
         s = shelve.open('zork_save.db')
-        d = s['save']
-        self.locationx = d['locationx']
-        self.locationy = d['locationy']
-        # self.read_location()
-        self.enemy = d['enemy']
-        self.items = d['items']
-        self.exititemx = d['exititemx']
-        self.exititemy = d['exititemy']
-        self.playerhitpoints = d['hp']
-        self.grid_events = d['gridevents']
+        if s:
+            d = s['save']
+            self.locationx = d['locationx']
+            self.locationy = d['locationy']
+            # self.read_location()
+            self.enemy = d['enemy']
+            self.items = d['items']
+            self.exititemx = d['exititemx']
+            self.exititemy = d['exititemy']
+            self.playerhitpoints = d['hp']
+            self.grid_events = d['gridevents']
+        else:
+            print('There is no saved game to load!')
+            raw_input('Press Enter to continue')
 
     def main_loop(self):
         clearscreen = True
