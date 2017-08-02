@@ -3,6 +3,7 @@ import os
 import random
 import time
 
+
 class GameEngine(object):
     def __init__(self):
         self.locationx = 5
@@ -127,6 +128,10 @@ class GameEngine(object):
         elif "SATCHEL" in self.action:
             self.get_satchel()
             return False
+
+        elif "ESCAPE " in self.action:
+            self.escape()
+            return False
         
         else:
             print("I'm confused. Do what now?")
@@ -134,6 +139,11 @@ class GameEngine(object):
             return True
  
     def navigate(self):
+        if self.enemy:
+            print("There is an enemy here! I can't just leave!")
+            raw_input("Press Enter to continue.")
+            return
+
         if "EAST" in self.action:
             self.locationx += 1
             
@@ -292,6 +302,57 @@ class GameEngine(object):
                 return False
     
         return False
+
+    def escape(self):
+        if not self.enemy:
+            print('Huh? There isn\'t an enemy here to escape from!')
+            return
+        else:
+            if "EAST" in self.action:
+                self.locationx += 1
+
+                if self.locationx > 17:
+                    self.locationx = 17
+                    print("I can't go that way.")
+                    raw_input("\nPress Enter to continue.")
+
+            elif "WEST" in self.action:
+                self.locationx -= 1
+
+                if self.locationx < 0:
+                    self.locationx = 0
+                    print("I can't go that way.")
+                    raw_input("\nPress Enter to continue.")
+
+            elif "SOUTH" in self.action:
+                self.locationy += 1
+
+                if self.locationy > 17:
+                    self.locationy = 17
+                    print("I can't go that way.")
+                    raw_input("\nPress Enter to continue.")
+
+            elif "NORTH" in self.action:
+                self.locationy -= 1
+
+                if self.locationy < 0:
+                    self.locationy = 0
+                    print("I can't go that way.")
+                    raw_input("\nPress Enter to continue.")
+            else:
+                print("Go where? I don't think so. Sober up!")
+                raw_input("\nPress Enter to continue.")
+
+            escape_will_damage = random.choice([True, False])
+
+            if escape_will_damage:
+                escape_damage = self.enemy[2] * 0.4
+                self.playerhitpoints -= escape_damage
+                print('You took ' + str(escape_damage) + ' damage escaping from ' + self.enemy[0])
+                raw_input('\nPress Enter to continue.')
+            else:
+                print('You managed to sneak away from the enemy without being noticed!')
+                raw_input('\nPress Enter to continue.')
     
     def find_item(self, itemname):
         '''Returns the index of the item'''
