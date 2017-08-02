@@ -23,7 +23,7 @@ class GameEngine(object):
             if clearscreen: 
                 os.system('cls' if os.name == 'nt' else 'clear')
                 self.read_location()
-            
+                clearscreen = False
                 print(self.location_description)
             
                 self.enemy_manager()
@@ -42,6 +42,7 @@ class GameEngine(object):
             
             if self.playerhitpoints <= 0:
                 self.exec_deathscene()
+                clearscreen = True
 
     def exec_deathscene(self):
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -61,6 +62,8 @@ class GameEngine(object):
         
         time.sleep(5)
         self.playerhitpoints = 50
+        self.locationx = 5
+        self.locationy = 17
         del self.items [:]
         self.items.append([("Rusty Knife", 0, 5)])
         if haswand:
@@ -96,7 +99,7 @@ class GameEngine(object):
 
     def generate_enemy(self, enemyfile):
         with open(enemyfile, "r") as enemies:
-            which = (int)(enemies.readline())
+            which = random.randint(1, (int)(enemies.readline()))
             for line in enemies:
                 if line == "[{0}]\n".format(which):
                     name = enemies.next().strip()
