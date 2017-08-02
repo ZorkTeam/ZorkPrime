@@ -131,7 +131,13 @@ class GameEngine(object):
             return False
         
         elif "USE " in self.action:
-            return self.satchel_action()
+            self.satchel_action()
+
+        elif "HELP" in self.action:
+            self.get_help()
+
+        elif "SATCHEL" in self.action:
+            self.get_satchel()
         
         else:
             print("I'm confused. Do what now?")
@@ -176,7 +182,7 @@ class GameEngine(object):
         
     def search_area(self):
         print("Searching the area...")
-        time.sleep(5)
+        time.sleep(3)
         new_item = self.generate_item()
 
         print("After a careful search of the area, you've found...")
@@ -221,6 +227,20 @@ class GameEngine(object):
             return ('Lightning', 0, 50)
         elif item_chance == 1:
             return ('ULTIMATE HAMMER OF GOD', 0, 100)
+
+    def get_help(self):
+        with open("help.txt", "r") as help_file:
+            for line in help_file:
+                print(line.strip())
+        raw_input("\nPress Enter to continue.")
+        return
+
+    def get_satchel(self):
+        print('Contents of satchel:\n')
+        for item in self.items:
+            print(item[0])
+        raw_input("\nPress Enter to continue.")
+        return
 
     def satchel_action(self):
         usewhat = self.action.upper().strip().replace("USE ","")
