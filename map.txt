@@ -648,7 +648,7 @@ Before you lies some strangely lively cottonfield, as if field hands are still m
 Before you lies some strangely lively cottonfield, as if field hands are still maintaining this side of the farm... The cotton is soft and healthy, and your feet become damp as you walk through the plantation. To the south there are outskirts to a lively forest. To the east, there appears to be a desert that continues far beyond you can see, surely you aren't equipped to venture there... In all other direcitons the lush cottonfield continues. 
 
 [0,12]
-Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. To the south and east the swamp seems to only continue and get more digusting. To the north there appears to be only desolate cornfield. To the west there are unmistakable tracks of large reptiles - you don't want to wrestle an angry aligator, do you? 
+Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. To the south and east the swamp seems to only continue and get more digusting. To the north there appears to be only desolate cornfield. To the west there are unmistakable tracks of large reptiles - you don't want to wrestle an angry alligator, do you? 
 
 [1,12]
 Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. To the north appears to be desolate cornfield. In all other directions the swamp only gets deeper and more pungent.
@@ -702,7 +702,7 @@ Before you lies the edge of a deep, dense forest. The trees look to be very old.
 Before you lies the edge of a deep, dense forest. The trees look to be very old. To the south, there is more forest. The forest continues to the east, but the trees are too thick to proceed. To the north, you can see what appears to be abandoned buildings. There is nothing apparent here that would be of interest.
 
 [0,13]
-Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. To the west there are unmistakable tracks of large reptiles - you don't want to wrestle an angry aligator, do you? In all other directions the swamp seems to only get deeper and get more pungent.
+Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. To the west there are unmistakable tracks of large reptiles - you don't want to wrestle an angry alligator, do you? In all other directions the swamp seems to only get deeper and get more pungent.
 
 [1,13]
 Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. In all directions the swamp seems to only get deeper and more pungent.
@@ -756,7 +756,7 @@ The forest is filled with life. You can hear the the calls of numerous birds and
 The forest is filled with life. You can hear the the calls of numerous birds and insects. The forest continues in every direction. To the east, the trees are too thick to proceed safely. There is nothing apparent here that would be of interest.
 
 [0,14]
-Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. To the west there are unmistakable tracks of large reptiles - you don't want to wrestle an angry aligator, do you? In all other directions the swamp seems to only get deeper and get more pungent.
+Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. To the west there are unmistakable tracks of large reptiles - you don't want to wrestle an angry alligator, do you? In all other directions the swamp seems to only get deeper and get more pungent.
 
 [1,14]
 Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. In all directions the swamp seems to only get deeper and more pungent.
@@ -810,7 +810,7 @@ Before you lies a vast and shrouded forest. The forest is very dense, not much l
 Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. To the east, the trees are too thick to proceed. There is nothing apparent here that would be of interest.
 
 [0,15]
-Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. To the west there are unmistakable tracks of large reptiles - you don't want to wrestle an angry aligator, do you? In all other directions the swamp seems to only get deeper and get more pungent.
+Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. To the west there are unmistakable tracks of large reptiles - you don't want to wrestle an angry alligator, do you? In all other directions the swamp seems to only get deeper and get more pungent.
 
 [1,15]
 Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. In all directions the swamp seems to only get deeper and more pungent.
@@ -864,7 +864,7 @@ Before you lies a vast and shrouded forest. The forest is very dense, not much l
 Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. To the west the vines and trees become too thick to even see through, let alone proceed. The forest continues in every other direction. There is nothing apparent here that would be of interest.
 
 [0,16]
-Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. To the west there are unmistakable tracks of large reptiles - you don't want to wrestle an angry aligator, do you? In all other directions the swamp seems to only get deeper and get more pungent.
+Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. To the west there are unmistakable tracks of large reptiles - you don't want to wrestle an angry alligator, do you? In all other directions the swamp seems to only get deeper and get more pungent.
 
 [1,16]
 Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. In all directions the swamp seems to only get deeper and more pungent.
@@ -939,34 +939,34 @@ Before you lies a shack on the edge of a swamp. The smell of the swamp burns you
 Before you lies the beginning of a road heading north. To the south, there is a dense forest. It appears too dangerous to continue in that direction. To the east, the forest looks more hospitable. Across the road, you can see a house to the west. There is nothing apparent here that would be of interest.
 
 [7,17]
-Before you lies a forest, the trees old and slightly in decay. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
+Before you lies more of the lively forest. The trees are thick above you and shroud the ground, and birds chirp atop the canopy. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [8,17]
-Before you lies more of the old forest. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
+Before you lies more of the lively forest. The trees are thick above you and shroud the ground, and birds chirp atop the canopy. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [9,17]
-Before you lies more of the old forest. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
+Before you lies more of the lively forest. The trees are thick above you and shroud the ground, and birds chirp atop the canopy. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [10,17]
-Before you lies more of the old forest. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
+Before you lies more of the lively forest. The trees are thick above you and shroud the ground, and birds chirp atop the canopy. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [11,17]
-Before you lies more of the old forest. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
+Before you lies more of the lively forest. The trees are thick above you and shroud the ground, and birds chirp atop the canopy. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [12,17]
-Before you lies more of the old forest. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
+Before you lies more of the lively forest. The trees are thick above you and shroud the ground, and birds chirp atop the canopy. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [13,17]
-Before you lies more of the old forest. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
+Before you lies more of the lively forest. The trees are thick above you and shroud the ground, and birds chirp atop the canopy.To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [14,17]
-Before you lies more of the old forest. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
+Before you lies more of the lively forest. The trees are thick above you and shroud the ground, and birds chirp atop the canopy.To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [15,17]
-Before you lies the deepest section of the old forest. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
+Before you lies more of the lively forest. The trees are thick above you and shroud the ground, and birds chirp atop the canopy. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [16,17]
-Before you lies the deepest section of the old forest. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
+Before you lies more of the lively forest. The trees are thick above you and shroud the ground, and birds chirp atop the canopy. To the south, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
 
 [17,17]
-Before you lies the deepest section of the old forest. To the south and east, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.
+Before you lies more of the lively forest. The trees are thick above you and shroud the ground, and birds chirp atop the canopy. To the south and east, the tree cover is too thick to proceed. There is nothing apparent here that would be of interest.

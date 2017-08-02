@@ -21,7 +21,7 @@ A lone crook stands before you. He must be hiding up in these mountains with his
 Expert Robber
 25
 15
-A lone crook stands before you. He appears seasoned, and looks more interested in pilfering your goods ofd your corpse than making small talk.
+A lone crook stands before you. He appears seasoned, and looks more interested in pilfering your goods off of your corpse than making small talk.
 
 [5]
 Warthog
@@ -33,4 +33,4 @@ A wild warthog stands before you. It's tusks clearly overgrown beyond the boar's
 Grizzly Bear
 50
 20
-A massive and towering bear stands before you. It's paws are nearly as wide as your torso, and it's roar shakes the trees and quakes the ground. 
+A massive and towering bear stands before you. Its paws are nearly as wide as your torso, and its roar shakes the trees and quakes the ground. 
