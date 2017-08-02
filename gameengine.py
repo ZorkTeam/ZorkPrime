@@ -178,7 +178,7 @@ class GameEngine(object):
         if new_item != None:
             print("\t\t" + new_item[0])
             self.items.append(new_item)
-            print("You added the " + new_item[0] + " to your satchel.")
+            print("\nYou added the " + new_item[0] + " to your satchel.")
         else:
             print("\t\tNothing!")
             
@@ -270,7 +270,7 @@ class GameEngine(object):
                 self.items.remove((name, target, points))
                 
                 print("Healed some of my damage.")
-                raw_input("Press Enter to continue.\n")
+                raw_input("\nPress Enter to continue.\n")
                 if self.enemy != None:
                     return True
                 else:
@@ -288,7 +288,7 @@ class GameEngine(object):
                 else:
                     print("The Wand makes a stuttering sound but does nothing else. Is this thing broken?!!\n")
                 
-                raw_input("Press Enterto continue.")
+                raw_input("\nPress Enter to continue.")
                 return False
     
         return False
