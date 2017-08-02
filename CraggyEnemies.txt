@@ -27,7 +27,7 @@ A lone crook stands before you. He appears seasoned, and looks more interested i
 Warthog
 20
 10
-A wild warthog stands before you. It's tusks clearly overgrown beyond the boar's help, he trashes and bucks wildly towards you.
+A wild warthog stands before you. Its tusks clearly overgrown beyond the boar's help, he thrashes and bucks wildly towards you.
 
 [6]
 Grizzly Bear

@@ -3,19 +3,19 @@
 Gru
 15
 5
-This thing looks like a large gremlin. His clothes are tattered and he wears an old beat up helmet. He weilds a short sword.
+This thing looks like a large gremlin. His clothes are tattered and he wears an old beat up helmet. He wields a short sword.
 
 [2]
 Bandit
 30
 10
-A human bandit. His clothes are tattered. His face is scarred and hunches to fight. He wields a short sword. 
+A human bandit. His clothes are tattered. His face is scarred and he hunches over to fight. He wields a short sword. 
 
 [3]
 Seasoned Bandit
 30
 20
-A human bandit. His clothes are tattered. His face is scarred . He wields a long sword. 
+A human bandit. His clothes are tattered. His face is scarred. He wields a long sword. 
 
 [4]
 Orc
@@ -33,4 +33,4 @@ A small, stunted orc stands before you. Although smaller than the average orc, h
 Starving Kur
 10
 5
-A malnourished and rabid dog stands before you. It looks sickly and afraid, but bears it's sharp teeth nonetheless.
+A malnourished and rabid dog stands before you. It looks sickly and afraid, but bears its sharp teeth nonetheless.
