@@ -930,10 +930,10 @@ Before you lies a vast and clearly untouched swamp. The smell burns your eyes an
 Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. You see the unmistakable tracks of large reptiles to the south. It would be inadvisable to travel in that direction. To the north, east, and west, there is only more swamp. There is nothing apparent here that would be of interest.
 
 [4,17]
-Before you lies the edge of the swamp outside the house. The ground is ankle-deep in water. Why anyone would ever want to build a house near here is a maystery to you. To the south, you hear some odd sounds that you decide you want to avoid. To the north and west, there is more swamp. You can still see the house in the east from here.
+Before you lies the edge of the swamp. The ground is ankle-deep in water. Why anyone would ever want to build a house near here is a mystery to you. To the south, you hear some odd sounds that you decide you want to avoid. To the north and west, there is more swamp. You can still see the house in the east from here.
 
 [5,17]
-Before you lies the beginnng of a road heading north. To the south is the tunnel that you came out of on your journey north. You just avoided its collapse and lost all of your gear but your father's old RUSTY KNIFE. To the east, you can see a swamp. To west, what looks like a structure in the distance.
+Before you to the east lies the beginning of a road heading north. To the south is the tunnel that you came out of on your journey north. You just avoided its collapse and lost all of your gear but your father's old RUSTY KNIFE. To the east in the distance, you can see a forest. There is an abandoned house here, on the edge of a swamp that continues to the west.
 
 [6,17]
 Before you lies the beginning of a road heading north. To the south, there is a dense forest. It appears too dangerous to continue in that direction. To the east, the forest looks more hospitable. Across the road, you can see a house to the west. There is nothing apparent here that would be of interest.
