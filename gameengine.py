@@ -13,7 +13,7 @@ class GameEngine(object):
         self.items = [("Rusty Knife", 0, 5)]
         self.exititemx = random.randint(0,17)
         self.exititemy = random.randint(0,17)
-        self.playerhitpoints = 50
+        self.playerhitpoints = 100
     
     def main_loop(self):
         clearscreen = True
@@ -38,6 +38,32 @@ class GameEngine(object):
             
             self.action = self.action.strip().upper()
             clearscreen = not self.process_action()
+            
+            if self.playerhitpoints <= 0:
+                self.exec_deathscene()
+
+    def exec_deathscene(self):
+        os.system('cls' if os.name == 'nt' else 'clear')
+        
+        print("I died?!! How the hell did that happen? Next time use a potion! \n")
+        print("I see a bright light.... and I hear a voice...\n")
+        print("'You will live again! But you shall have nothing but what you started with.....'\n")
+        print("........\n")
+        time.sleep(10)
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print("It lied.... I feel like I only have half the energy...\n")
+        
+        haswand = False
+        if ("Wand of Solomon", -2, 0) in self.items:
+            print("... and this stupid wand? Is there something special?")
+            haswand = True
+        
+        time.sleep(5)
+        self.playerhitpoints = 50
+        del self.items [:]
+        self.items.append([("Rusty Knife", 0, 5)])
+        if haswand:
+            self.items.append(("Wand of Solomon", -2, 0))
 
     def read_location(self):
         with open("map.txt", "r") as themap:
@@ -131,18 +157,20 @@ class GameEngine(object):
             return False
         
         elif "USE " in self.action:
-            self.satchel_action()
+            return self.satchel_action()
 
         elif "HELP" in self.action:
             self.get_help()
+            return True
 
         elif "SATCHEL" in self.action:
             self.get_satchel()
+            return False
         
         else:
             print("I'm confused. Do what now?")
             raw_input("\nPress Enter to continue.")
-            return 
+            return True
  
     def navigate(self):
         if "EAST" in self.action:
@@ -244,55 +272,73 @@ class GameEngine(object):
 
     def satchel_action(self):
         usewhat = self.action.upper().strip().replace("USE ","")
+        index = self.find_item(usewhat)
         
-        for name,target,points in self.items:
-            if name.upper() != usewhat:
-                print("Ummm.... where is that? Did I lose it?")
-                raw_input("\nPress Enter to continue.")
+        if index == -1:
+            print("Ummm.... where is that? Did I lose it?")
+            raw_input("\nPress Enter to continue.")
+            
+            return False
+        else:
+            name,target,points = self.items[index]
+            
+            if self.enemy != None and target == 0:
+                enemy, enemyhp, enemydeals, enemydesc = self.enemy
                 
-                return False
-            else:
-                if self.enemy != None and target == 0:
-                    enemy, enemyhp, enemydeals, enemydesc = self.enemy
-                    
-                    print("I used the weapon and did {0}/{1} points of damage. \n ".format(points, enemyhp))
-                    print("But he did {0}/{1} to me too. \n".format(enemydeals, self.playerhitpoints))
-                    enemyhp -= points
-                    self.playerhitpoints -= enemydeals
-                    
+                print("I used the weapon and did {0} out of {1} points of damage. \n ".format(points, enemyhp))
+                print("But he did {0} out of {1} to me too. \n".format(enemydeals, self.playerhitpoints))
+                enemyhp -= points
+                self.playerhitpoints -= enemydeals
+                
+                if enemyhp <= 0:
+                    print("\n I defeated the {0}.".format(enemy))
+                    self.enemy = None
+                
+                else:
                     self.enemy = (enemy, enemyhp, enemydeals, enemydesc)
-                    
-                    return True
-                    
-                elif target == 1:
-                    if self.playerhitpoints + points > 50:
-                        self.playerhitpoints = 50
-                    else:
-                        self.playerhitpoints += points
-                        
-                    self.items.remove((name, target, points))
-                    
-                    print("Healed some of my damage.")
-                    raw_input("Press Enter to continue.\n")
-                    if self.enemy != None:
-                        return True
-                    else:
-                        return False
-
-                elif target == -1:
-                    print("Ummm... Do you see a store? Maybe in the next town.")
-                    raw_input("\nPress Enter to continue.")
-                    return False
                 
-                elif target == -2:
-                    if self.locationx == 8 and self.locationy == 0:
-                        print("The Wand of Solomon glows and the briars have opened the road. You can finally leave!!")
+                return True
+                
+            elif target == 1:
+                if self.playerhitpoints + points > 50:
+                    self.playerhitpoints = 50
+                else:
+                    self.playerhitpoints += points
                     
-                    else:
-                        print("The Wand makes a stuttering sound but does nothing else. Is this thing broken?!!\n")
-                    
-                    raw_input("Press Enterto continue.")
+                self.items.remove((name, target, points))
+                
+                print("Healed some of my damage.")
+                raw_input("Press Enter to continue.\n")
+                if self.enemy != None:
+                    return True
+                else:
                     return False
-        
+
+            elif target == -1:
+                print("Ummm... Do you see a store? Maybe in the next town.")
+                raw_input("\nPress Enter to continue.")
+                return False
+            
+            elif target == -2:
+                if self.locationx == 8 and self.locationy == 0:
+                    print("The Wand of Solomon glows and the briars have opened the road. You can finally leave!!")
+                
+                else:
+                    print("The Wand makes a stuttering sound but does nothing else. Is this thing broken?!!\n")
+                
+                raw_input("Press Enterto continue.")
+                return False
+    
         return False
     
+    def find_item(self, itemname):
+        '''Returns the index of the item'''
+        
+        item = 0
+        for name,target,points in self.items:
+            if itemname == name.upper().strip():
+                return item
+            
+            item += 1
+        
+        return -1
