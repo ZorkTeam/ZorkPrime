@@ -1,11 +1,33 @@
+''' Module gameengine.py '''
+
 from __future__ import print_function
 import os
 import random
 import time
+import shelve
+
+"""
+ZorkPrime
+
+Contributors:
+    Richard Hamm    (reh14c@my.fsu.edu)
+    Jordan Harlow   (jth14b@my.fsu.edu)
+    Robert Zink     (rjz11@my.fsu.edu)
+
+CIS4930 - Python Programming
+Summer 2017
+4 August 2017
+gameengine.py
+"""
 
 
 class GameEngine(object):
+    """ The core game engine
+    """
     def __init__(self):
+        """ Function: __init__
+        Sets up the initial game variables
+        """
         self.locationx = 5
         self.locationy = 17
         self.action = ' '
@@ -17,8 +39,46 @@ class GameEngine(object):
         self.playerhitpoints = 100
         #18x18 grid of whether a player has searched or killed an enemy in an area
         self.grid_events = [[[False, False]] * 18 for i in range(18)]
-    
+
+    def save(self):
+        """ Function: save
+        Saves the progress of the current playthrough. Only one save file is allowed.
+        :return:
+        """
+        s = shelve.open('zork_save.db')
+        s['save'] = {'locationx': self.locationx, 'locationy': self.locationy, 'enemy': self.enemy, 'items': self.items, 'exititemx': self.exititemx, 'exititemy': self.exititemy, 'hp': self.playerhitpoints, 'gridevents': self.grid_events}
+        s.close()
+        print('Progress saved.')
+        raw_input('Press Enter to continue')
+
+    def load(self):
+        """ Function: load
+        Loads a saved game file, if it exists
+        :return:
+        """
+        print('Loading game...\n')
+        raw_input('Press Enter to continue')
+        s = shelve.open('zork_save.db')
+        if s:
+            d = s['save']
+            self.locationx = d['locationx']
+            self.locationy = d['locationy']
+            # self.read_location()
+            self.enemy = d['enemy']
+            self.items = d['items']
+            self.exititemx = d['exititemx']
+            self.exititemy = d['exititemy']
+            self.playerhitpoints = d['hp']
+            self.grid_events = d['gridevents']
+        else:
+            print('There is no saved game to load!')
+            raw_input('Press Enter to continue')
+
     def main_loop(self):
+        """ Function: main_loop
+        The main game loop, controls execution flow of the Zork game
+        :return:
+        """
         clearscreen = True
         
         while self.action != 'QUIT':
@@ -48,6 +108,10 @@ class GameEngine(object):
                 clearscreen = True
 
     def exec_deathscene(self):
+        """ Function: exec_deathscene
+        This function runs upon the death of the player
+        :return:
+        """
         os.system('cls' if os.name == 'nt' else 'clear')
         
         print("I died?!! How the hell did that happen? Next time use a potion! \n")
@@ -73,6 +137,10 @@ class GameEngine(object):
             self.items.append(("Wand of Solomon", -2, 0))
 
     def read_location(self):
+        """ Function: read_location
+        Used to grab the location information for the current x and y coordinates from the map file
+        :return:
+        """
         with open("map.txt", "r") as themap:
             for line in themap:
                 if line == "[{0},{1}]\n".format(self.locationx, self.locationy):
@@ -80,6 +148,10 @@ class GameEngine(object):
                     break
 
     def enemy_manager(self):
+        """ Function: enemy_manager
+        Handles enemy management and creation
+        :return:
+        """
         possible = random.randint(1,10)
         if (possible not in [2,5,10] or self.grid_events[self.locationx][self.locationy][1] == True or
             (self.locationx == 5 and self.locationy == 17) or
@@ -101,6 +173,11 @@ class GameEngine(object):
                 self.enemy = self.generate_enemy("ForestEnemies.txt")
 
     def generate_enemy(self, enemyfile):
+        """ Function: generate_enemy
+        Generates an enemy for the player to fight from the specified enemy file
+        :param enemyfile: The file to grab the enemy information from
+        :return: Tuple containing enemy name, hitpoints, deals, and description
+        """
         with open(enemyfile, "r") as enemies:
             which = random.randint(1, (int)(enemies.readline()))
             for line in enemies:
@@ -113,6 +190,10 @@ class GameEngine(object):
                     return name, hitpoints, deals, description
 
     def process_action(self):
+        """ Function: process_action
+        Executes the action entered by the player
+        :return: Boolean, determines whether or not the screen is cleared after the action
+        """
         if "QUIT" in self.action:
             return  ## Nothing to do
         
@@ -140,7 +221,14 @@ class GameEngine(object):
             return False
 
         elif "ESCAPE " in self.action:
-            self.escape()
+            return self.escape()
+
+        elif "SAVE" in self.action:
+            self.save()
+            return False
+
+        elif "LOAD" in self.action:
+            self.load()
             return False
         
         else:
@@ -149,6 +237,10 @@ class GameEngine(object):
             return True
  
     def navigate(self):
+        """ Function: navigate
+        Handles player movement around the x and y coordinates
+        :return: Boolean, whether to clear screen or not
+        """
         if self.enemy:
             print("There is an enemy here! I can't just leave!\n")
             return True
@@ -191,8 +283,12 @@ class GameEngine(object):
         return False
         
     def search_area(self):
+        """ Function: search_area
+        Handles the search command, adding an item to the player's satchel if one is found
+        :return:
+        """
         print("Searching the area...")
-        time.sleep(3)
+        time.sleep(2)
         new_item = self.generate_item()
 
         print("After a careful search of the area, you've found...")
@@ -212,15 +308,17 @@ class GameEngine(object):
         raw_input("\nPress Enter to continue.")
 
     def generate_item(self):
+        """ Function: generate_item
+        Creates an item to be generated for the user (upon searching an area)
+        :return: None, or a tuple with item information
+        """
         item_chance = random.randint(1, 500)
 
         if self.locationx == self.exititemx and self.locationy == self.exititemy:
             return ("Wand of Solomon", -2, 0)
 
-        if item_chance >= 400:
+        if item_chance >= 300:
             return None
-        elif item_chance >= 300:
-            return ('A bundle of sticks', 0, 1)
         elif item_chance >= 250:
             return ('Small potion', 1, 10)
         elif item_chance >= 200:
@@ -234,9 +332,9 @@ class GameEngine(object):
         elif item_chance >= 60:
             return ('Bow and Arrows', 0, 20)
         elif item_chance >= 40:
-            return ('Gold', -1, 0)
+            return ('Long Axe', 0, 30)
         elif item_chance >= 20:
-            return ('Jewels', -1, 0)
+            return ('Max Potion', 1, 100)
         elif item_chance >= 10:
             return ('Fireball', 0, 40)
         elif item_chance >= 2:
@@ -245,6 +343,10 @@ class GameEngine(object):
             return ('ULTIMATE HAMMER OF GOD', 0, 100)
 
     def get_help(self):
+        """ Function: get_help
+        Shows the help screen with list of available commands
+        :return:
+        """
         with open("help.txt", "r") as help_file:
             for line in help_file:
                 print(line.strip())
@@ -252,6 +354,10 @@ class GameEngine(object):
         return
 
     def get_satchel(self):
+        """ Function: get_satchel
+        Prints the contents of the player's satchel
+        :return:
+        """
         print('Contents of satchel:\n')
         for item in self.items:
             print(item[0])
@@ -259,6 +365,10 @@ class GameEngine(object):
         return
 
     def satchel_action(self):
+        """ Function: satchel_action
+        Handles the use of an item specified by the player
+        :return: Boolean, to clear screen or not
+        """
         usewhat = self.action.upper().strip().replace("USE ","")
         index = self.find_item(usewhat)
         
@@ -284,6 +394,8 @@ class GameEngine(object):
                     print("\nI defeated the {0} - this area should be clear now.\n".format(enemy))
                     self.grid_events[self.locationx][self.locationy] = [self.grid_events[self.locationx][self.locationy][0], True]
                     self.enemy = None
+                    time.sleep(3)
+                    return False
                 
                 else:
                     self.enemy = (enemy, enemyhp, enemydeals, enemydesc)
@@ -329,9 +441,13 @@ class GameEngine(object):
         return False
 
     def escape(self):
+        """ Function: escape
+        Escapes from an enemy encounter. Works like navigate, but only when an enemy is present on the screen
+        :return: Boolean, returns whether to clear screen or not
+        """
         if not self.enemy:
-            print('Huh? There isn\'t an enemy here to escape from!')
-            return
+            print('Huh? There isn\'t an enemy here to escape from!\n')
+            return True
         else:
             if "EAST" in self.action:
                 self.locationx += 1
@@ -372,18 +488,23 @@ class GameEngine(object):
 
             if escape_will_damage:
                 escape_damage = (int)(self.enemy[2] * 0.5)
-                self.playerhitpoints -= escape_damage
                 print('You took {0} out of {2} damage escaping from {1}'.format(escape_damage, self.enemy[0], self.playerhitpoints))
+                self.playerhitpoints -= escape_damage
                 self.enemy = None
                 raw_input('\nPress Enter to continue.')
             else:
                 print('You managed to sneak away from the enemy without being noticed!')
                 self.enemy = None
                 raw_input('\nPress Enter to continue.')
+
+            return False
     
     def find_item(self, itemname):
-        '''Returns the index of the item'''
-        
+        """ Function: find_item
+        Finds an item in the player's satchel
+        :param itemname: The name of the item to search for
+        :return: The item, or -1 if the item isn't found
+        """
         item = 0
         for name,target,points in self.items:
             if itemname == name.upper().strip():
