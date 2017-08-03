@@ -132,7 +132,7 @@ class GameEngine(object):
         self.locationx = 5
         self.locationy = 17
         del self.items [:]
-        self.items.append([("Rusty Knife", 0, 5)])
+        self.items.append(("Rusty Knife", 0, 5))
         if haswand:
             self.items.append(("Wand of Solomon", -2, 0))
 
