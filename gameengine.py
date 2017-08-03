@@ -132,7 +132,7 @@ class GameEngine(object):
         self.locationx = 5
         self.locationy = 17
         del self.items [:]
-        self.items.append([("Rusty Knife", 0, 5)])
+        self.items.append(("Rusty Knife", 0, 5))
         if haswand:
             self.items.append(("Wand of Solomon", -2, 0))
 
@@ -221,8 +221,7 @@ class GameEngine(object):
             return False
 
         elif "ESCAPE " in self.action:
-            self.escape()
-            return False
+            return self.escape()
 
         elif "SAVE" in self.action:
             self.save()
@@ -318,10 +317,8 @@ class GameEngine(object):
         if self.locationx == self.exititemx and self.locationy == self.exititemy:
             return ("Wand of Solomon", -2, 0)
 
-        if item_chance >= 400:
+        if item_chance >= 300:
             return None
-        elif item_chance >= 300:
-            return ('A bundle of sticks', 0, 1)
         elif item_chance >= 250:
             return ('Small potion', 1, 10)
         elif item_chance >= 200:
@@ -335,9 +332,9 @@ class GameEngine(object):
         elif item_chance >= 60:
             return ('Bow and Arrows', 0, 20)
         elif item_chance >= 40:
-            return ('Gold', -1, 0)
+            return ('Long Axe', 0, 30)
         elif item_chance >= 20:
-            return ('Jewels', -1, 0)
+            return ('Max Potion', 1, 100)
         elif item_chance >= 10:
             return ('Fireball', 0, 40)
         elif item_chance >= 2:
@@ -397,6 +394,8 @@ class GameEngine(object):
                     print("\nI defeated the {0} - this area should be clear now.\n".format(enemy))
                     self.grid_events[self.locationx][self.locationy] = [self.grid_events[self.locationx][self.locationy][0], True]
                     self.enemy = None
+                    time.sleep(3)
+                    return False
                 
                 else:
                     self.enemy = (enemy, enemyhp, enemydeals, enemydesc)
@@ -444,11 +443,11 @@ class GameEngine(object):
     def escape(self):
         """ Function: escape
         Escapes from an enemy encounter. Works like navigate, but only when an enemy is present on the screen
-        :return:
+        :return: Boolean, returns whether to clear screen or not
         """
         if not self.enemy:
-            print('Huh? There isn\'t an enemy here to escape from!')
-            return
+            print('Huh? There isn\'t an enemy here to escape from!\n')
+            return True
         else:
             if "EAST" in self.action:
                 self.locationx += 1
@@ -489,14 +488,16 @@ class GameEngine(object):
 
             if escape_will_damage:
                 escape_damage = (int)(self.enemy[2] * 0.5)
-                self.playerhitpoints -= escape_damage
                 print('You took {0} out of {2} damage escaping from {1}'.format(escape_damage, self.enemy[0], self.playerhitpoints))
+                self.playerhitpoints -= escape_damage
                 self.enemy = None
                 raw_input('\nPress Enter to continue.')
             else:
                 print('You managed to sneak away from the enemy without being noticed!')
                 self.enemy = None
                 raw_input('\nPress Enter to continue.')
+
+            return False
     
     def find_item(self, itemname):
         """ Function: find_item
