@@ -2,3 +2,5 @@
 *.py~
 
 *.pyc
+
+zork_save\.db

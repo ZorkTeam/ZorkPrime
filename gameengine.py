@@ -126,8 +126,6 @@ class GameEngine(object):
         os.system('cls' if os.name == 'nt' else 'clear')
         print("It lied.... I feel like I only have half the energy...\n")
 
-        raw_input("\n Press Enter to continue")
-
         haswand = False
         if ("Wand of Solomon", -2, 0) in self.items:
             print("... and this stupid wand? Is there something special?")
@@ -139,6 +137,7 @@ class GameEngine(object):
         self.playerhitpoints = 50
         self.locationx = 5
         self.locationy = 17
+        self.enemy = None
         del self.items [:]
         self.items.append(("Rusty Knife", 0, 5))
         if haswand:
@@ -240,7 +239,6 @@ class GameEngine(object):
         
         else:
             print("I'm confused. Do what now?")
-            raw_input("\nPress Enter to continue.")
             return True
  
     def navigate(self):
@@ -432,7 +430,7 @@ class GameEngine(object):
                     
                 self.items.remove((name, target, points))
                 
-                print("I healed myself to {0} out of 100 health.".format(points))
+                print("I healed myself to {0} out of 100 health.".format(self.playerhitpoints))
                 raw_input("\nPress Enter to continue.\n")
                 if self.enemy is not None:
                     return True
@@ -474,6 +472,7 @@ class GameEngine(object):
                     self.locationx = 17
                     print("I can't go that way.")
                     raw_input("\nPress Enter to continue.")
+                    return False
 
             elif "WEST" in self.action:
                 self.locationx -= 1
@@ -482,6 +481,7 @@ class GameEngine(object):
                     self.locationx = 0
                     print("I can't go that way.")
                     raw_input("\nPress Enter to continue.")
+                    return False
 
             elif "SOUTH" in self.action:
                 self.locationy += 1
@@ -490,6 +490,7 @@ class GameEngine(object):
                     self.locationy = 17
                     print("I can't go that way.")
                     raw_input("\nPress Enter to continue.")
+                    return False
 
             elif "NORTH" in self.action:
                 self.locationy -= 1
@@ -502,9 +503,11 @@ class GameEngine(object):
                         self.locationy = 0
                         print("I can't go that way.")
                         raw_input("\nPress Enter to continue.")
+                        return False
             else:
                 print("Go where? I don't think so. Sober up!")
                 raw_input("\nPress Enter to continue.")
+                return False
 
             escape_will_damage = random.choice([True, False, True])
 
