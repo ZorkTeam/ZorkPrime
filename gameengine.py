@@ -540,6 +540,10 @@ class GameEngine(object):
         return -1
 
     def player_win(self):
+        """ Function: player_win
+        Function that runs upon a win (player reaches [8,0] and uses Wand of Solomon, then goes north)
+        :return: True, to clear the screen
+        """
         os.system('cls' if os.name == 'nt' else 'clear')
         
         print("CONGRATULATIONS!!! You have escaped the Doomed Valley!\n")
