@@ -236,6 +236,10 @@ class GameEngine(object):
         elif "LOAD" in self.action:
             self.load()
             return False
+
+        elif "HEALTH" in self.action:
+            self.show_health()
+            return True
         
         else:
             print("I'm confused. Do what now?")
@@ -557,4 +561,10 @@ class GameEngine(object):
         else: 
             self.action = "QUIT"
             return True
-        
+
+    def show_health(self):
+        """ Function: show_health
+        Shows the players current health.
+        :return:
+        """
+        print("You currently have " + str(self.playerhitpoints) + " out of 100 health.")
