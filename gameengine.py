@@ -126,8 +126,6 @@ class GameEngine(object):
         os.system('cls' if os.name == 'nt' else 'clear')
         print("It lied.... I feel like I only have half the energy...\n")
 
-        raw_input("\n Press Enter to continue")
-
         haswand = False
         if ("Wand of Solomon", -2, 0) in self.items:
             print("... and this stupid wand? Is there something special?")
@@ -139,6 +137,7 @@ class GameEngine(object):
         self.playerhitpoints = 50
         self.locationx = 5
         self.locationy = 17
+        self.enemy = None
         del self.items [:]
         self.items.append(("Rusty Knife", 0, 5))
         if haswand:
