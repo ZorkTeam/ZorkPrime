@@ -861,7 +861,7 @@ Before you lies a vast and shrouded forest. The forest is very dense, not much l
 Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. The forest continues in every direction. There is nothing apparent here that would be of interest.
 
 [17,15]
-Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. To the west the vines and trees become too thick to even see through, let alone proceed. The forest continues in every other direction. There is nothing apparent here that would be of interest.
+Before you lies a vast and shrouded forest. The forest is very dense, not much light is making it through the trees. Leaves litter the ground. To the east the vines and trees become too thick to even see through, let alone proceed. The forest continues in every other direction. There is nothing apparent here that would be of interest.
 
 [0,16]
 Before you lies a vast and clearly untouched swamp. The smell burns your eyes and nostrils as you wade through the knee-high water. To the west there are unmistakable tracks of large reptiles - you don't want to wrestle an angry alligator, do you? In all other directions the swamp seems to only get deeper and get more pungent.
