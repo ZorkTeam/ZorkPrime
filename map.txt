@@ -80,7 +80,7 @@ Before you lies another section of the field of grain. It looks like rows of poo
 Before you lies a gap between the corn fields (Eastward) and a forest (Westward). There is a road the leads both North and South. The North direction appears as though the road leads to more fields, while southward appears to lead to a town off in the distance.
 
 [9,1]
-Before you lies the outskirts of what looks like a deep forest. In this area the trees seem to be young saplings of different species. Oak, some pine, and maple. There is nothing apparent to you that would be of interest. To the north is more of the impassible briars seeming to make their way through the trees. To the west is a road leading south. To the south, more of the outskirts of the forest. To the east, the woods get thicker and older.
+Before you lies the outskirts of what looks like a deep forest. In this area the trees seem to be young saplings of different species. Oak, some pine, and maple. There is nothing apparent to you that would be of interest. To the west is a road leading north and south. To the south, more of the outskirts of the forest. To the east, the woods get thicker and older.
 
 [10,1]
 Before you lies a deep forest. In this area the trees seem to be older saplings of different species. Oak, some pine, and maple. the trunks seem to be about a foot in diameter. There is nothing apparent to you that would be of interest. To the north, west, and south is more of the outskirts of the forest. To the east, the woods get thicker and older.
