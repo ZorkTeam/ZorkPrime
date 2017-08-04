@@ -91,10 +91,10 @@ class GameEngine(object):
                 clearscreen = False
                 print(self.location_description)
             
-                if self.enemy == None:
+                if self.enemy is None:
                     self.enemy_manager()
             
-                if self.enemy != None:
+                if self.enemy is not None:
                     print("You have encountered a {0}.\n\n".format(self.enemy[0]))
                     print("{0}\n".format(self.enemy[3]))
             
@@ -203,20 +203,19 @@ class GameEngine(object):
         :return: Boolean, determines whether or not the screen is cleared after the action
         """
         if "QUIT" in self.action:
-            return  ## Nothing to do
+            return  # Nothing to do
         
         if "GO " in self.action:
             return self.navigate()
             
         elif "SEARCH" in self.action:
-            if self.grid_events[self.locationx][self.locationy][0] == False:
+            if not self.grid_events[self.locationx][self.locationy][0]:
                 self.search_area()
                 return False
             else:
                 print("You've already searched this area before...\n")
                 return True
-            
-        
+
         elif "USE " in self.action:
             return self.satchel_action()
 
@@ -282,7 +281,7 @@ class GameEngine(object):
             
             if self.locationy < 0:
                 if self.exitopen and self.locationx == 8:
-                    player_win()
+                    self.player_win()
                 
                 else:
                     self.locationy = 0
@@ -304,14 +303,14 @@ class GameEngine(object):
         new_item = self.generate_item()
 
         print("After a careful search of the area, you've found...")
-        if new_item != None:
+        if new_item is not None:
             print("\t\t" + new_item[0])
             self.items.append(new_item)
             print("\nYou added the " + new_item[0] + " to your satchel.")
         else:
             print("\t\tNothing!")
 
-        if self.enemy != None:
+        if self.enemy is not None:
             enemy_damage = random.randint(0, self.enemy[2])
             print("While searching, the {2} did {0} out of {1} to me. \n".format(enemy_damage, self.playerhitpoints, self.enemy[0]))
             self.playerhitpoints -= enemy_damage
@@ -381,7 +380,7 @@ class GameEngine(object):
         Handles the use of an item specified by the player
         :return: Boolean, to clear screen or not
         """
-        usewhat = self.action.upper().strip().replace("USE ","")
+        usewhat = self.action.upper().strip().replace("USE ", "")
         index = self.find_item(usewhat)
         
         if index == -1:
@@ -390,9 +389,9 @@ class GameEngine(object):
             
             return False
         else:
-            name,target,points = self.items[index]
+            name, target, points = self.items[index]
 
-            if self.enemy != None and target == 0:
+            if self.enemy is not None and target == 0:
                 enemy, enemyhp, enemydeals, enemydesc = self.enemy
                 player_damage = (points / 2) + random.randint(1, (points / 2))
                 enemy_damage = random.randint(1, enemydeals)
@@ -414,7 +413,7 @@ class GameEngine(object):
                 
                 return True
 
-            elif self.enemy == None and target == 0:
+            elif self.enemy is None and target == 0:
                 print("Uhh, what exactly are you swinging at?\n")
                 raw_input("\nPress Enter to continue.")
 
@@ -435,7 +434,7 @@ class GameEngine(object):
                 
                 print("I healed myself to {0} out of 100 health.".format(points))
                 raw_input("\nPress Enter to continue.\n")
-                if self.enemy != None:
+                if self.enemy is not None:
                     return True
                 else:
                     return False
@@ -497,7 +496,7 @@ class GameEngine(object):
 
                 if self.locationy < 0:
                     if self.exitopen and self.locationx == 8:
-                        player_win()
+                        self.player_win()
                     
                     else:
                         self.locationy = 0
