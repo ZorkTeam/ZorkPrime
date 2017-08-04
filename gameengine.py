@@ -28,6 +28,10 @@ class GameEngine(object):
         """ Function: __init__
         Sets up the initial game variables
         """
+        self.full_reset()
+    
+    def full_reset(self):
+        self.exitopen = False
         self.locationx = 5
         self.locationy = 17
         self.action = ' '
@@ -63,7 +67,6 @@ class GameEngine(object):
             d = s['save']
             self.locationx = d['locationx']
             self.locationy = d['locationy']
-            # self.read_location()
             self.enemy = d['enemy']
             self.items = d['items']
             self.exititemx = d['exititemx']
@@ -118,16 +121,21 @@ class GameEngine(object):
         print("I see a bright light.... and I hear a voice...\n")
         print("'You will live again! But you shall have nothing but what you started with.....'\n")
         print("........\n")
-        time.sleep(10)
+        raw_input("\n Press Enter to continue")
+        
         os.system('cls' if os.name == 'nt' else 'clear')
         print("It lied.... I feel like I only have half the energy...\n")
-        
+
+        raw_input("\n Press Enter to continue")
+
         haswand = False
         if ("Wand of Solomon", -2, 0) in self.items:
             print("... and this stupid wand? Is there something special?")
             haswand = True
         
-        time.sleep(5)
+        raw_input("\n Press Enter to continue")
+
+        self.exitopen = False
         self.playerhitpoints = 50
         self.locationx = 5
         self.locationy = 17
@@ -273,9 +281,13 @@ class GameEngine(object):
             self.locationy -= 1
             
             if self.locationy < 0:
-                self.locationy = 0
-                print("I can't go that way. Can't you read?")
-                raw_input("\nPress Enter to continue.")
+                if self.exitopen and self.locationx == 8:
+                    player_win()
+                
+                else:
+                    self.locationy = 0
+                    print("I can't go that way. Can't you read?")
+                    raw_input("\nPress Enter to continue.")
         else:
             print("Go where? I don't think so. Sober up!")
             raw_input("\nPress Enter to continue.")
@@ -379,7 +391,6 @@ class GameEngine(object):
             return False
         else:
             name,target,points = self.items[index]
-            
 
             if self.enemy != None and target == 0:
                 enemy, enemyhp, enemydeals, enemydesc = self.enemy
@@ -394,20 +405,26 @@ class GameEngine(object):
                     print("\nI defeated the {0} - this area should be clear now.\n".format(enemy))
                     self.grid_events[self.locationx][self.locationy] = [self.grid_events[self.locationx][self.locationy][0], True]
                     self.enemy = None
-                    time.sleep(3)
+                    raw_input("\nPress Enter to continue.")
+
                     return False
                 
                 else:
                     self.enemy = (enemy, enemyhp, enemydeals, enemydesc)
                 
                 return True
+
             elif self.enemy == None and target == 0:
                 print("Uhh, what exactly are you swinging at?\n")
+                raw_input("\nPress Enter to continue.")
+
                 return True
                 
             elif target == 1:
                 if self.playerhitpoints == 100:
                     print("Your health is already full, you can't drink away your problems!\n")
+                    raw_input("\nPress Enter to continue.")
+
                     return True
                 elif self.playerhitpoints + points > 100:
                     self.playerhitpoints = 100
@@ -416,7 +433,7 @@ class GameEngine(object):
                     
                 self.items.remove((name, target, points))
                 
-                print("Healed some of my damage.")
+                print("I healed myself to {0} out of 100 health.".format(points))
                 raw_input("\nPress Enter to continue.\n")
                 if self.enemy != None:
                     return True
@@ -431,6 +448,7 @@ class GameEngine(object):
             elif target == -2:
                 if self.locationx == 8 and self.locationy == 0:
                     print("The Wand of Solomon glows and the briars have opened the road. You can finally leave!!")
+                    self.exitopen = True
                 
                 else:
                     print("The Wand makes a stuttering sound but does nothing else. Is this thing broken?!!\n")
@@ -447,6 +465,7 @@ class GameEngine(object):
         """
         if not self.enemy:
             print('Huh? There isn\'t an enemy here to escape from!\n')
+            raw_input("\nPress Enter to continue.")
             return True
         else:
             if "EAST" in self.action:
@@ -477,9 +496,13 @@ class GameEngine(object):
                 self.locationy -= 1
 
                 if self.locationy < 0:
-                    self.locationy = 0
-                    print("I can't go that way.")
-                    raw_input("\nPress Enter to continue.")
+                    if self.exitopen and self.locationx == 8:
+                        player_win()
+                    
+                    else:
+                        self.locationy = 0
+                        print("I can't go that way.")
+                        raw_input("\nPress Enter to continue.")
             else:
                 print("Go where? I don't think so. Sober up!")
                 raw_input("\nPress Enter to continue.")
@@ -513,3 +536,19 @@ class GameEngine(object):
             item += 1
         
         return -1
+
+    def player_win(self):
+        os.system('cls' if os.name == 'nt' else 'clear')
+        
+        print("CONGRATULATIONS!!! You have escaped the Doomed Valley!\n")
+        print("You and I now part ways and I can continue on my journey.\n")
+        again = raw_input("So... Do you want to play again? (Y/N)")
+        
+        if again == "Y":
+            self.full_reset()
+            return True
+        
+        else: 
+            self.action = "QUIT"
+            return True
+        
