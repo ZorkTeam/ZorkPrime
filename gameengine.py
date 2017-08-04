@@ -546,7 +546,7 @@ class GameEngine(object):
         print("You and I now part ways and I can continue on my journey.\n")
         again = raw_input("So... Do you want to play again? (Y/N)")
         
-        if again == "Y":
+        if again.upper() == "Y":
             self.full_reset()
             return True
         
