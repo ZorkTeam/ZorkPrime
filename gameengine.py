@@ -236,6 +236,10 @@ class GameEngine(object):
         elif "LOAD" in self.action:
             self.load()
             return False
+
+        elif "HEALTH" in self.action:
+            self.show_health()
+            return True
         
         else:
             print("I'm confused. Do what now?")
@@ -540,6 +544,10 @@ class GameEngine(object):
         return -1
 
     def player_win(self):
+        """ Function: player_win
+        Function that runs upon a win (player reaches [8,0] and uses Wand of Solomon, then goes north)
+        :return: True, to clear the screen
+        """
         os.system('cls' if os.name == 'nt' else 'clear')
         
         print("CONGRATULATIONS!!! You have escaped the Doomed Valley!\n")
@@ -553,4 +561,10 @@ class GameEngine(object):
         else: 
             self.action = "QUIT"
             return True
-        
+
+    def show_health(self):
+        """ Function: show_health
+        Shows the players current health.
+        :return:
+        """
+        print("You currently have " + str(self.playerhitpoints) + " out of 100 health.")

@@ -9,3 +9,4 @@ search:                         Search the area
 use [item]:                     Use the specified item
 satchel:                        Shows list of items currently carried in satchel
 escape [north/south/east/west]: Escapes from an enemy encounter
+health:                         Shows the current player health
