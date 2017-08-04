@@ -220,7 +220,7 @@ class GameEngine(object):
 
         elif "HELP" in self.action:
             self.get_help()
-            return True
+            return False
 
         elif "SATCHEL" in self.action:
             self.get_satchel()
